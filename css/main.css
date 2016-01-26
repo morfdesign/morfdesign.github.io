@@ -34,8 +34,11 @@
 .window-height{
   height:100vh;
 }
-body {
+html {
   font-family: Courier, serif;
+}
+body {
+
 }
 
 section {
@@ -48,11 +51,11 @@ section {
 }
 
 #brand {
-  background-color: green;
+  
 }
 #info {
-  background-color: yellow;
+
 }
 #contact {
-  background-color: blue;
+
 }
