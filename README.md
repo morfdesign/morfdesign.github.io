@@ -1,2 +1,2 @@
-# morfdesign.github.io
-Morf Design - our home on github
+# morf-studio.github.io
+Morf Studio - Our home on github
