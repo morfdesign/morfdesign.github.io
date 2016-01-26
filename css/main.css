@@ -1,5 +1,4 @@
 /*Colors*/
-
 .bg-red{background-color:#F44336;}
 .bg-cyan{background-color:#00BCD4;}
 .bg-amber{background-color:#FFC107;}
@@ -34,6 +33,7 @@
 .window-height{
   height:100vh;
 }
+
 html {
   font-family: Courier, serif;
 }
@@ -46,12 +46,17 @@ section {
   height: 100vh;
 }
 
+.text-center{
+  text-align:center;
+}
+
+
 .class-name {
 
 }
 
 #brand {
-  
+
 }
 #info {
 
