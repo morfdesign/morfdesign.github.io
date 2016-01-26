@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+body {
+  font-family: Courier, serif;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+.class-name {
+
+}
+
+#brand {
+  background-color: green;
+}
+#info {
+  background-color: yellow;
+}
+#contact {
+  background-color: blue;
+=======
 /*Colors*/
 
 .bg-red{background-color:#F44336;}
@@ -33,26 +56,5 @@
 /* Layout / Viewports */
 .window-height{
   height:100vh;
-}
-body {
-  font-family: Courier, serif;
-}
-
-section {
-  width: 100%;
-  height: 100vh;
-}
-
-.class-name {
-
-}
-
-#brand {
-  background-color: green;
-}
-#info {
-  background-color: yellow;
-}
-#contact {
-  background-color: blue;
+>>>>>>> aa8f2bc8f2546b882c7ceb0017cfd9b9d221e9d3
 }
