@@ -1,0 +1,22 @@
+body {
+  font-family: Courier, serif;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+.class-name {
+
+}
+
+#brand {
+  background-color: green;
+}
+#info {
+  background-color: yellow;
+}
+#contact {
+  background-color: blue;
+}
