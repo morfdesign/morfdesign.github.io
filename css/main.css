@@ -72,14 +72,17 @@ a {
   padding: .2rem;
   color: white;
 }
+a:hover {
+  color: black;
+}
+
+li {
+  color: white;
+}
 
 .list-reset {
     padding-left: 0;
     list-style: none;
-}
-
-a:hover {
-  color: black;
 }
 
 .dt {
