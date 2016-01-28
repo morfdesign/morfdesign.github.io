@@ -60,10 +60,15 @@ h2 {
 .text-center{
   text-align:center;
 }
+.thin-text {
+  max-width: 360px;
+  margin: auto;
+}
 
 p {
   display: block;
   padding: 2rem;
+  line-height: 2rem;
 }
 
 a {
@@ -114,6 +119,16 @@ li {
   width: 120px;
   height: 120px;
   margin: auto;
+  transition: all 0.4s ease-out;
+}
+.bigRoundButton:hover {
+  background-image: url("../img/morf-square.jpg");
+  background-size: cover;
+  width: 240px;
+  height: 240px;
+  border-radius: 8%;
+  z-index: 2;
+  transition: all 0.2s ease-out;
 }
 
 .button-text {
@@ -123,42 +138,54 @@ li {
 
 
 #brand {
-
+  z-index: 2;
 }
-#info {
-
+section #info {
+  font-family: "Helvetica Neue", Helvetica, sans-serif; !important
 }
 #contact {
-
+  /*z-index: 2;*/
 }
 
 #map-marker {
-  width: 80px;
+  width: 60px;
   fill: white;
 }
 
 .circle-btn {
   background-color: rgba(255,255,255,0.2);
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   margin: auto;
 }
 .circle-btn:hover {
   background-color: rgba(255,255,255,0.28);
+  width: 82px;
 }
 
 #chevron {
   width: 40px;
   fill: white;
-  padding: 40px;
+  padding: 20px;
 }
 
 #morf-logo {
-  width: 80px;
+  width: 60px;
+  position: fixed;
+  z-index: 1;
+  padding: 1rem;
+}
+#morf-logo:hover {
+  -webkit-animation:spin 1s linear infinite;
+  -moz-animation:spin 1s linear infinite;
+  animation:spin 1s linear infinite;
+  }
 }
 
-
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(90deg); transform:rotate(560deg); } }
 
 /*ANIMATION*/
 
@@ -173,11 +200,11 @@ li {
     background-image: url("../icons/morf-sprite.svg");
     background-size: 100% auto;
 
-    -webkit-animation: play 7.5s steps(10) infinite;
-       -moz-animation: play 7.5s steps(10) infinite;
-        -ms-animation: play 7.5s steps(10) infinite;
-         -o-animation: play 7.5s steps(10) infinite;
-            animation: play 7.5s steps(10) infinite;
+    -webkit-animation: play 5s steps(10) infinite;
+       -moz-animation: play 5s steps(10) infinite;
+        -ms-animation: play 5s steps(10) infinite;
+         -o-animation: play 5s steps(10) infinite;
+            animation: play 5s steps(10) infinite;
 }
 
 @-webkit-keyframes play {
