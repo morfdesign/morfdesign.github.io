@@ -57,27 +57,22 @@
     width: 360px;
     height: 120px;
   }
-
   @-webkit-keyframes play {
      from { background-position: 0px; }
        to { background-position: 0px -1200px; }
   }
-
   @-moz-keyframes play {
      from { background-position: 0px; }
        to { background-position: 0px -1200px; }
   }
-
   @-ms-keyframes play {
      from { background-position: 0px; }
        to { background-position: 0px -1200px; }
   }
-
   @-o-keyframes play {
      from { background-position: 0px; }
        to { background-position: 0px -1200px; }
   }
-
   @keyframes play {
      from { background-position: 0px 0px; }
        to { background-position: 0px -1200px; }
@@ -88,5 +83,4 @@
   -webkit-animation:spin 1s linear infinite;
   -moz-animation:spin 1s linear infinite;
   animation:spin 1s linear infinite;
-  }
 }

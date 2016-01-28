@@ -1,0 +1,30 @@
+
+ul {
+  padding-bottom: 2rem;
+}
+li {
+  /*color: white;*/
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  padding: .05rem;
+  //font-weight: bold;
+}
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+.list-reset {
+    margin-left:0;
+    padding-left: 0;
+    list-style: none;
+}

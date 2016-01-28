@@ -1,4 +1,8 @@
 //Global Settings
+
+$measure-width:20em;
+
+
 html {
   font-family: Courier, serif;
 }
@@ -8,6 +12,8 @@ body {
 
 p {
   line-height: 2rem;
+  max-width:$measure-width;
+  margin:0 auto $spacing-unit;
 }
 
 
@@ -25,4 +31,4 @@ p {
 .light{}
 
 //Measure & Max-Width Classes
-.measure{ max-width: 20em;}
+.measure{ max-width: $measure-width;}

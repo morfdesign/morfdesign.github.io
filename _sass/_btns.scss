@@ -5,6 +5,10 @@
   height:4rem;
   width:4rem;
   background-color: rgba(255,255,255,0.2);
+  color:#000;
+  .icon{
+    color:black;
+  }
 }
 
 .icon {
@@ -13,15 +17,9 @@
 	width: 2rem;
 	height: 2rem;
 	fill: currentColor;
+  padding:1rem;
 }
-.circle-btn {
-  background-color: rgba(255,255,255,0.2);
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin: auto;
-  transition: all 0.5s ease-out;
-}
+
 .circle-btn:hover {
   background-color: rgba(255,255,255,0.28);
   width: 82px;
@@ -37,14 +35,15 @@
   height: 120px;
   margin: 2rem auto;
   transition: all 0.4s ease-out;
+  background-size: cover;
 }
 .bigRoundButton:hover {
   background-image: url("../img/morf-square.jpg");
-  background-size: cover;
-  width: 240px;
-  height: 240px;
+
+//  width: 240px;
+//  height: 240px;
   /*border-radius: 4%;*/
-  border: 8px solid white;
+  box-shadow:0 0 0 0.5em white;
   z-index: 2;
   transition: all 0.2s ease-out;
 }
