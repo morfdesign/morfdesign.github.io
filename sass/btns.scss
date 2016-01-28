@@ -1,0 +1,55 @@
+.btn-circle{
+  display:block;
+  margin:auto;
+  border-radius:50%;
+  height:4rem;
+  width:4rem;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.icon {
+	/*display: block;*/
+  margin:auto;
+	width: 2rem;
+	height: 2rem;
+	fill: currentColor;
+}
+.circle-btn {
+  background-color: rgba(255,255,255,0.2);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: auto;
+  transition: all 0.5s ease-out;
+}
+.circle-btn:hover {
+  background-color: rgba(255,255,255,0.28);
+  width: 82px;
+  transition: all 0.2s ease-out;
+}
+
+
+.bigRoundButton {
+  background-color:rgba(0,0,0,0.8);
+  display: block;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 2rem auto;
+  transition: all 0.4s ease-out;
+}
+.bigRoundButton:hover {
+  background-image: url("../img/morf-square.jpg");
+  background-size: cover;
+  width: 240px;
+  height: 240px;
+  /*border-radius: 4%;*/
+  border: 8px solid white;
+  z-index: 2;
+  transition: all 0.2s ease-out;
+}
+
+.button-text {
+  display: block;
+  padding: 5.5rem 0;
+}

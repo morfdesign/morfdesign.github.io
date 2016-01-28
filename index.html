@@ -11,8 +11,22 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
+<svg style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+  <defs>
+    <symbol id="chevron" viewBox="0 0 32 32" enable-background="new 0 0 32 32" x="0px" y="0px">
+      <path d="M16,21.2L27.6,9.6L29,11L17.4,22.6L16,24l-1.4-1.4L3,11l1.4-1.4L16,21.2z"/>
+    </symbol>
+    <symbol id="map-marker" viewBox="0 0 512 512" enable-background="new 0 0 512 512" x="0px" y="0px">
+      <path d="M256,0C149.969,0,64,85.969,64,192c0,43.188,14.25,83,38.313,115.094L256,512l153.688-204.906
+        C433.75,275,448,235.188,448,192C448,85.969,362.031,0,256,0z M256,320c-70.688,0-128-57.313-128-128S185.313,64,256,64
+        s128,57.313,128,128S326.688,320,256,320z"/>
+    </symbol>
+  </defs>
+</svg>
+
 <header>
-  <a href="#brand"><img id="morf-logo" src="../img/morf-square.png" alt="" /></a>
+  <!-- <a href="#brand"><img id="morf-logo" src="../img/morf-square.png" alt="" /></a> -->
 </header>
 
 <div class="wrap text-center">
@@ -22,49 +36,32 @@
       <div class="headerAnimation"></div>
       <p class="b80 thin-text">Strategic, interdisciplinary design for the everyman.</p>
     </div>
-    <a href="#info" class="pos-abs">
-      <div class="circle-btn">
-        <svg version="1.1" id="chevron" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
-        <path d="M16,21.2L27.6,9.6L29,11L17.4,22.6L16,24l-1.4-1.4L3,11l1.4-1.4L16,21.2z"/>
-        </svg>
-      </div>
-
-<!-- SVGs for a subtracted chevron look-->
-      <!-- <svg version="1.1" id="chevron" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        viewBox="0 0 72 72" style="enable-background:new 0 0 72 72;" xml:space="preserve">
-        <path d="M-327,353c-15.5,0-28,12.5-28,28c0,15.5,12.5,28,28,28s28-12.5,28-28C-299,365.5-311.5,353-327,353z M-325.6,386.8l-1.4,1.4 l-1.4-1.4l-11.6-11.6l1.4-1.4l11.6,11.6l11.6-11.6l1.4,1.4L-325.6,386.8z"/>
-      </svg> -->
-    </a>
+    <div class="pos-abs">
+      <a href="#info" class="btn-circle">
+          <svg class="icon"> <use xlink:href="#chevron"></use> </svg>
+      </a>
+    </div>
   </section>
   <section id="info" class="bg-amber dt">
     <div class="v-center">
       <h2 class="b80">Brief Statement<br>of Core Values:</h2>
-      <!-- <p class="b80">Professionalism > Seriousness</p>
-      <p class="b80">There is nothing new under the sun.</p> -->
       <p class="b80">Grip it and ship it!</p>
     </div>
-    <!-- <a href="#contact" class="pos-abs"><span class="border">Mhmm.</span></a> -->
-    <a href="#contact" class="pos-abs">
-      <div class="circle-btn">
-        <svg version="1.1" id="chevron" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-           viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
-        <path d="M16,21.2L27.6,9.6L29,11L17.4,22.6L16,24l-1.4-1.4L3,11l1.4-1.4L16,21.2z"/>
-        </svg>
-      </div>
-    </a>
+    <div class="pos-abs">
+      <a href="#contact" class="btn-circle">
+          <svg class="icon">
+            <use xlink:href="#chevron"></use>
+          </svg>
+      </a>
+    </div>
   </section>
   <section id="contact" class="bg-red dt">
     <div class="v-center">
       <!-- <img src="img/map-marker.svg" class="location" alt=""/> -->
       <!-- <a href="mailto:info@morf.studio" class="bigRoundButton bg-20"> <span class="button-text">YEAH</span></a> -->
+        <a href="mailto:info@morf.studio?subject=I%20Was%20Stalking%20Your%20Site&body=I'm dying to know...">info@morf.studio</a>
       <div class="bigRoundButton">
-        <svg version="1.1" id="map-marker" class="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-           width="120px" height="120px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-        <path d="M256,0C149.969,0,64,85.969,64,192c0,43.188,14.25,83,38.313,115.094L256,512l153.688-204.906
-          C433.75,275,448,235.188,448,192C448,85.969,362.031,0,256,0z M256,320c-70.688,0-128-57.313-128-128S185.313,64,256,64
-          s128,57.313,128,128S326.688,320,256,320z"/>
-        </svg>
+        <svg><use xlink:href="#map-marker"></use></svg>
       </div>
       <ul class="list-reset">
         <li>NYC</li>
@@ -79,18 +76,10 @@
         <li>BER</li>
         <li>WTF</li>
       </ul>
-      <footer>
-        <a id="email" href="mailto:info@morf.studio?subject=I%20Was%20Stalking%20Your%20Site&body=I'm dying to know...">Say Hey</a>
-        <!-- <a href="mailto:info@morf.studio"><span class="">919.537.9227</span></a> -->
-      </footer>
     </div>
-    <!-- <a href="#info" class="pos-abs">
-      <div class="circle-btn">
-        <p>
-          Contact
-        </p>
-      </div>
-    </a> -->
+    <a href="#info" class="pos-abs btn-circle">
+
+    </a>
   </section>
 </div>
 </body>
