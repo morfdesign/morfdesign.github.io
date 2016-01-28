@@ -204,17 +204,25 @@ li {
 }
 
 #morf-logo {
-  width: 60px;
+  font-family: "Helvetica Neue", Serif;
+  font-size: 2.2rem;
+  line-height: 2rem;
+  width: 2rem;
+  height: 2rem;
+  /*width: 60px;*/
   position: fixed;
   z-index: 1;
   padding: 1rem;
+  color: black;
+  border: 6px solid black;
+  margin: 2rem;
 }
-#morf-logo:hover {
+/*#morf-logo:hover {
   -webkit-animation:spin 1s linear infinite;
   -moz-animation:spin 1s linear infinite;
   animation:spin 1s linear infinite;
-  }
-}
+}*/
+
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
