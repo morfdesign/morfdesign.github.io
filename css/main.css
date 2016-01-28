@@ -40,8 +40,21 @@
 html {
   font-family: Courier, serif;
 }
+header {
+  padding: 0;
+  margin: 0;
+  height: 0;
+}
 body {
 
+}
+footer {
+  background-color: black;
+  position: absolute;;
+  bottom: 0;
+  margin: 1rem;
+  left: 0;
+  right: 0;
 }
 
 section {
@@ -54,35 +67,47 @@ h1 {
 }
 
 h2 {
-  color: white;
+  font-size: 4rem;
+  line-height: 4rem;
+  color: white !important;
+  font-family: "Helvetica Neue";
 }
 
 .text-center{
   text-align:center;
 }
 .thin-text {
-  max-width: 360px;
+  max-width: 20rem;
   margin: auto;
 }
 
 p {
   display: block;
-  padding: 2rem;
+  /*padding: 2rem;*/
   line-height: 2rem;
 }
 
 a {
   display: block;
+  text-transform: uppercase;
   text-decoration: none;
+  letter-spacing: .2rem;
+  font-weight: bold;
   padding: .2rem;
   color: white;
 }
 a:hover {
   color: black;
 }
-
+ul {
+  padding-bottom: 2rem;
+}
 li {
   color: white;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  padding: .05rem;
+  font-weight: bold;
 }
 
 .list-reset {
@@ -114,11 +139,12 @@ li {
 }
 
 .bigRoundButton {
+  background-color:rgba(0,0,0,0.8);
   display: block;
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  margin: auto;
+  margin: 2rem auto;
   transition: all 0.4s ease-out;
 }
 .bigRoundButton:hover {
@@ -126,7 +152,8 @@ li {
   background-size: cover;
   width: 240px;
   height: 240px;
-  border-radius: 8%;
+  border-radius: 4%;
+  border: 8px solid white;
   z-index: 2;
   transition: all 0.2s ease-out;
 }
@@ -140,11 +167,11 @@ li {
 #brand {
   z-index: 2;
 }
-section #info {
-  font-family: "Helvetica Neue", Helvetica, sans-serif; !important
+#info {
 }
 #contact {
   /*z-index: 2;*/
+  font-family: "Helvetica Neue", Helvetica, sans-serif; !important
 }
 
 #map-marker {
@@ -158,16 +185,22 @@ section #info {
   height: 80px;
   border-radius: 50%;
   margin: auto;
+  transition: all 0.5s ease-out;
 }
 .circle-btn:hover {
   background-color: rgba(255,255,255,0.28);
   width: 82px;
+  transition: all 0.2s ease-out;
 }
 
 #chevron {
   width: 40px;
   fill: white;
   padding: 20px;
+}
+
+#email {
+  padding: 2rem;
 }
 
 #morf-logo {
@@ -193,6 +226,7 @@ section #info {
   /*border: 2px solid;*/
     width: 180px;
     height: 60px;
+    margin: 2rem;
     margin-left: auto;
     margin-right: auto;
     align-content: center;
@@ -233,10 +267,12 @@ section #info {
 }
 
 @media screen and (min-width: 40em) {
+  h2 {
+    line-height: 4rem;
+  }
   .headerAnimation{
     width: 360px;
     height: 120px;
-
   }
 
   @-webkit-keyframes play {
