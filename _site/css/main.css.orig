@@ -1,0 +1,60 @@
+<<<<<<< HEAD
+body {
+  font-family: Courier, serif;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+.class-name {
+
+}
+
+#brand {
+  background-color: green;
+}
+#info {
+  background-color: yellow;
+}
+#contact {
+  background-color: blue;
+=======
+/*Colors*/
+
+.bg-red{background-color:#F44336;}
+.bg-cyan{background-color:#00BCD4;}
+.bg-amber{background-color:#FFC107;}
+
+.red{color:#F44336;}
+.cyan{color:#00BCD4;}
+.amber{color:#FFC107;}
+
+.black{color:#000;}
+.b10{color:rgba(0,0,0,0.1);}
+.b20{color:rgba(0,0,0,0.2);}
+.b30{color:rgba(0,0,0,0.3);}
+.b40{color:rgba(0,0,0,0.4);}
+.b50{color:rgba(0,0,0,0.5);}
+.b60{color:rgba(0,0,0,0.6);}
+.b70{color:rgba(0,0,0,0.7);}
+.b80{color:rgba(0,0,0,0.8);}
+.b90{color:rgba(0,0,0,0.9);}
+
+.white{color:#FFF;}
+.w10{color:rgba(255,255,255,0.1);}
+.w20{color:rgba(255,255,255,0.2);}
+.w30{color:rgba(255,255,255,0.3);}
+.w40{color:rgba(255,255,255,0.4);}
+.w50{color:rgba(255,255,255,0.5);}
+.w60{color:rgba(255,255,255,0.6);}
+.w70{color:rgba(255,255,255,0.7);}
+.w80{color:rgba(255,255,255,0.8);}
+.w90{color:rgba(255,255,255,0.9);}
+
+/* Layout / Viewports */
+.window-height{
+  height:100vh;
+>>>>>>> aa8f2bc8f2546b882c7ceb0017cfd9b9d221e9d3
+}
