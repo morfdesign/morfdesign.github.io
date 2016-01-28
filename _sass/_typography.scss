@@ -1,0 +1,34 @@
+//Global Settings
+
+$measure-width:20em;
+
+
+html {
+  font-family: Courier, serif;
+}
+body {
+  line-height:1.5;
+}
+
+p {
+  line-height: 2rem;
+  max-width:$measure-width;
+  margin:0 auto $spacing-unit;
+}
+
+
+//Text Decoration Classes
+.underline{}
+.bold{}
+
+// Text Alignment Classes
+.text-center{text-align:center;}
+.text-left  { text-align:left;}
+.text-right {text-align:right;}
+
+//Font Weight Classes
+.bold {}
+.light{}
+
+//Measure & Max-Width Classes
+.measure{ max-width: $measure-width;}

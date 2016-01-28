@@ -1,12 +1,10 @@
-// Variables
+/*Colors*/
 
 // Font Family
 
 //Font Style
 
-//Text Decoration
-.underline{}
-.bold{}
+
 
 // Font Scale
 $h1: 2rem;
@@ -28,7 +26,6 @@ $space3: 1rem;
 $space4: 2rem;
 $space5: 4rem;
 $space6: 8rem;
-
 
 //Colors, could also be applied as pure tone with opacities, like google mdl.
 // so example: .b10{color:$000;opacity:0.1;}
@@ -53,3 +50,23 @@ $w70:rgba(255,255,255,0.7);
 $w80:rgba(255,255,255,0.8);
 $w90:rgba(255,255,255,0.9);
 $white:rgb(255,255,255);
+
+
+// Our variables
+$base-font-family: courier new, courier, georgia, serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$on-palm:          600px;
+$on-laptop:        800px;

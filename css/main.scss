@@ -1,0 +1,55 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "variables",
+        "base",
+        "layout",
+        "typography",
+        "headings",
+        "media",
+        "btns",
+        "links",
+        "layout",
+        "navigation",
+        "colors",
+        "animation",
+        "lists",
+        "syntax-highlighting"
+;
+
+
+
+#brand {
+  z-index: 2;
+}
+#info {
+}
+#contact {
+  color:$white;
+  /*z-index: 2;*/
+  //font-family: "Helvetica Neue", Helvetica, sans-serif !important;
+}
+#map-marker {
+  width: 60px;
+  fill: white;
+}
+#chevron {
+  width: 40px;
+  fill: white;
+  padding: 20px;
+}
+
+#email {
+  padding: 2rem;
+}
+
+#morf-logo {
+  width: 60px;
+  position: fixed;
+  z-index: 1;
+  padding: 1rem;
+}
