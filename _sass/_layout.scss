@@ -53,11 +53,12 @@
 .v-center{
   display: table-cell;
   vertical-align: middle;
+  padding-bottom: 6rem;
 }
 
 .pos-abs {
   position: absolute;
-  bottom: 4em;
+  bottom: 5em;
   z-index: 1;
   left: 0;
   right: 0;

@@ -6,13 +6,13 @@
 
 
 
-// Font Scale
-$h1: 2rem;
-$h2: 1.5rem;
-$h3: 1.25rem;
-$h4: 1rem;
-$h5: .875rem;
-$h6: .75rem;
+// Font Scale    e.g.
+$h1: 2rem;    // 32px
+$h2: 1.5rem;  // 24px
+$h3: 1.25rem; // 20px
+$h4: 1rem;    // 16px
+$h5: .875rem; // 14px
+$h6: .75rem;  // 12px
 
 // Line Height, Maybe lh as class
 $leading-solid: 1;
@@ -70,3 +70,14 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+
+// Pixel-to-em calculator
+@function em($target, $context: 16) {
+  @return ($target / $context) * 1em;
+}
+
+// Enter in the pixel value you know, and it converts it into em
+.test-class-for-example {
+  width: em(400);
+}
