@@ -9,8 +9,9 @@ li {
 /**
  * Lists
  */
-ul, ol {
-    margin-left: $spacing-unit;
+ul, ol, dl {
+    padding-left: $space4;
+    margin:0 auto $spacing-unit;
 }
 
 li {
@@ -20,7 +21,20 @@ li {
     }
 }
 .list-reset {
-    margin-left:0;
-    padding-left: 0;
+    //margin-left:0;
+    //padding-left: 0;
     list-style: none;
+}
+
+dl{
+  list-style:square;
+  dt{
+    font-weight:bold;
+    padding: $space1;
+  }
+  dd{
+    padding: $space1;
+    margin:0;
+  }
+    padding-bottom: 2rem;
 }
