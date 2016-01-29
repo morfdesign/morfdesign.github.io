@@ -20,6 +20,9 @@ p {
 //Text Decoration Classes
 .underline{}
 .bold{}
+.uppercase{
+  text-transform: uppercase;
+}
 
 // Text Alignment Classes
 .text-center{text-align:center;}

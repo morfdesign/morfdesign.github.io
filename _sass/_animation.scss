@@ -85,3 +85,10 @@
   -moz-animation:spin 1s linear infinite;
   animation:spin 1s linear infinite;
 }
+
+// Transform
+
+.rotate-90 {}
+.rotate-180 {
+  transform: rotate(180deg);
+}

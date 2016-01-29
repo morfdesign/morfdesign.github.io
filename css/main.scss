@@ -37,10 +37,17 @@
   width: 60px;
   fill: white;
 }
+
 #chevron {
   width: 40px;
   fill: white;
   padding: 20px;
+}
+.chevron-btn {
+  bottom: 6em;
+  z-index: 1;
+  left: 0;
+  right: 0;
 }
 
 #email {
