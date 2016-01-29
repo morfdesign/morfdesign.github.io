@@ -61,8 +61,14 @@
   padding: 1rem;
 }
 
-//Flexbox
+//Padding
 
+.pad-all-xs {padding:$space1;}
+.pad-all-s  {padding:$space2;}
+.pad-all-m  {padding:$space3;}
+.pad-all-l  {padding:$space4;}
+.pad-all-xl {padding:$space5;}
+.pad-all-xxl{padding:$space6;}
 
 .full-screen{
   width: 100%;
