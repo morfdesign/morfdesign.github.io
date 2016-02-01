@@ -33,7 +33,12 @@ Nothing builds business strength like brand consistency in every touchpoint.
 For Our Employees / Other Coworkers
 
 - We believe that autonomy and community are the most important factors in a creative career.
-Without control of your work and trust from your teammates, you become a cog, and you lose heart and reason for working. Nothing kills creativity like hierarchy, micromanagement, and 8 hours at the same desk.
+Without control of your work and trust from your teammates, you become a cog, and you lose heart and reason for working. Nothing kills our creativity like hierarchy, micromanagement, and 8 hours at the same desk.
+
+So how do function as a company??
+We have regular check-ins at fixed times & places, but keep minimal office hours so no one burns out.
+
+
 - Critique & Iteration
 There are a lot of words for this process, but we think that the creative classroom model is among the most effective ways for moving projects forward. The desire to keep up with your peers and impress ones mentors is a powerful motivator in self initiated work.
 
