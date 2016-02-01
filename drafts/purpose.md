@@ -8,13 +8,34 @@ permalink: /purpose/
 
 We're setting out to build the creative studio we wish existed.
 
+(Say what we DO, not what we want to do? "We build brands for Visionaries" // "We ____ for ____")
+
+Studio vs. Agency
+There is a strong differentiation to the fact we say 'Studio' instead of 'Agency'
+A studio is approachable.
+An Agency has process and tradition.
+A studio decides to oil paint on wednesday afternoon in the office.
+An Agency has strictly kept work hours.
+
+
 ## Principles of Practice:
 
-- The best design starts early, digs deep, and doesn't stop as time goes on.
+1. Design Theory
+- The best design starts early, digs deep, and doesn't stop as time goes on. (...)
+- There are problems everywhere that need solving. You hire a designer to do the struggling for you. We take joy in the hunt for elegant solutions. And Alex has really great hair.
+
+2. Polishing Turds //feels similar to 3. -- Is it important to say this at all?
 - No one likes polishing a turd. For that reason, we are not looking to sell products that we don't believe in
 - We will not sell empty promises. If theres a product or idea we don't believe in, we won't accept the job. If we think the idea is great but the business isn't quite there, we want to be involved in the strategy of making the product better before we try to convince people to like it.
-- We want to feel as confident in our clients as they do in us. For that reason, we will be careful to make sure we feel our goals and stories align.
 
+3. Partnerships
+- We want to feel as confident in our clients as they do in us. For that reason, we will be careful to make sure we feel our goals and stories align. We do our best work when we are in the company of the right people who have the right chemistry. And that doesn't mean the same opinion or perspective in the world. But the hot air must always propel us in an upward spiral.
+
+("We make considered, relevant and long-lasting brands for visionaries of all varieties" -omfgco)
+
+** SHOW DONT TELL
+I don't want to say we do all this shit. I want to say it in an interesting way.
+Like some kind of short story, or a simple example/parable.
 
 ### For Ourselves
 
@@ -55,7 +76,7 @@ Hire Us | Work With Us
 LOCATION
 Anywhere on the globe in 24 hours or less*
 
-*additional fees may apply.
+* *additional fees may apply.*
 
 Saying it to Legitimize us.
 Most. Major Cities.
