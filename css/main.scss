@@ -44,12 +44,11 @@
   padding: 20px;
 }
 
-// #work {
-//   background-image: url(../img/grid.jpg);
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   background-size: cover;
-// }
+#work {
+  // width: 100%;
+  // max-width: 100vh;
+  // height: auto;
+}
 #work-huge {
   color:$off-white;
   // background-image: url(../img/grid.jpg);
@@ -75,7 +74,10 @@
 //   height: 100%;
 //   width: 100%;
 // }
-
+.carousel-frame {
+  padding: 0 2em;
+  // padding: 0;
+}
 .chevron-btn {
   z-index: 1;
   bottom: 2em;
