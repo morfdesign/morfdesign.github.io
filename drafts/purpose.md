@@ -6,7 +6,7 @@ permalink: /purpose/
 
 # Purpose
 
-We're setting out to build the creative studio we wish existed.
+We're setting out to build the creative studio (practice) we wish existed.
 
 (Say what we DO, not what we want to do? "We build brands for Visionaries" // "We ____ for ____")
 
