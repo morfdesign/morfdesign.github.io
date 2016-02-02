@@ -10,6 +10,12 @@ body {
   line-height:1.5;
 }
 
+h2 {
+  font-family: "Helvetica Neue";
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
 p {
   line-height: 2rem;
   max-width:$measure-width;
