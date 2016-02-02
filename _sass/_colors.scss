@@ -1,3 +1,9 @@
+// Colors
+$red: #F44336;
+$red-new: #ff3835;
+$off-white: #e3d3c4;
+
+// Background Colors
 .bg-red{background-color:#F44336;}
 .bg-cyan{
   background-color:#67c9bb;
@@ -6,14 +12,15 @@
 .bg-amber{background-color:#FFC107;}
 .bg-gray{background-color:#F2F2F2;}
 
-.red{color:#F44336;}
+
+// Text Color Classes
+.mint{color:#9bc097;}
 .cyan{
   color:#67c9bb;
   //color:#00BCD4;
 }
 .amber{color:#FFC107;}
 .off-white{color:#e3d3c4;}
-
 .black{color:#000;}
 .b10{color:rgba(0,0,0,0.1);}
 .b20{color:rgba(0,0,0,0.2);}
