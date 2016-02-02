@@ -44,14 +44,14 @@
   padding: 20px;
 }
 #work-huge {
-  color:$red;
+  color:$off-white;
   // font-size: 20rem;
   transition: all 0.2s ease;
   text-transform: uppercase;
   font-family: "helvetica neue";
-  transform: rotate(-45deg);
+  // transform: rotate(-45deg);
   &:hover {
-    color:$off-white;
+    opacity: .8;
     // background-image: url("http://tv.giphy.com/giphytrending");
     // color: red;
     // background-image: url(../img/morf-shed.jpg);
