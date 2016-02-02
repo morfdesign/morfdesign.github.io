@@ -59,34 +59,32 @@
   // transform: rotate(-45deg);
   &:hover {
     opacity: .8;
-    // background-image: url("http://tv.giphy.com/giphytrending");
-    // color: red;
-    // background-image: url(../img/morf-shed.jpg);
-    // color: white;  /* Fallback: assume this color ON TOP of image */
-    // background: url("http://www-tc.pbs.org/wgbh/nova/next/wp-content/uploads/2015/12/double-rainbow_2048x1152.jpg") no-repeat;
-    // -webkit-background-clip: text;
-    // -webkit-text-fill-color: transparent;
   }
 }
 
-// #gif-bg {
-//   background: url("http://tv.giphy.com/giphytrending");
-//   height: 100%;
-//   width: 100%;
-// }
 .carousel-frame {
-  padding: 0 6em;
+  padding: .2rem 0;
   // padding: 0;
 }
 
-@media (max-width: 769px) and
-     (-webkit-min-device-pixel-ratio: 2),
-     (max-width: 769px) and
-     (min-resolution: 192dpi) {
-       .carousel-frame{
-         padding: 0 0;
-       }
+.project-box {
+  // background-color: black;
+  color: $off-white;
+  // position: absolute;
+  top: 2rem;
+  left: 2rem;
+  z-index: 5;
+  // margin: 2rem;
+  padding: 2rem;
+  // border: 4px solid;
+  h2 {
+    font-size: 3rem;
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
+    line-height: 3rem;
+  }
 }
+
 
 .chevron-btn {
   z-index: 1;
