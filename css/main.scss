@@ -75,9 +75,19 @@
 //   width: 100%;
 // }
 .carousel-frame {
-  padding: 0 2em;
+  padding: 0 6em;
   // padding: 0;
 }
+
+@media (max-width: 769px) and
+     (-webkit-min-device-pixel-ratio: 2),
+     (max-width: 769px) and
+     (min-resolution: 192dpi) {
+       .carousel-frame{
+         padding: 0 0;
+       }
+}
+
 .chevron-btn {
   z-index: 1;
   bottom: 2em;
