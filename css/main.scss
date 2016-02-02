@@ -43,8 +43,16 @@
   fill: white;
   padding: 20px;
 }
+
+#work {
+  background-image: url(../img/grid.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 #work-huge {
   color:$off-white;
+  // background-image: url(../img/grid.jpg);
   // font-size: 20rem;
   transition: all 0.2s ease;
   text-transform: uppercase;
