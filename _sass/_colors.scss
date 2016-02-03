@@ -2,6 +2,9 @@
 $red: #F44336;
 $red-new: #ff3835;
 $off-white: #e3d3c4;
+$cyan: #67c9bb;
+$blk: #1f1a17;
+$charcoal: #252525;
 
 // Background Colors
 .bg-red{background-color:#F44336;}
@@ -46,3 +49,4 @@ $off-white: #e3d3c4;
 .bg-20{background-color:rgba(0,0,0,0.2);}
 .bg-80{background-color:rgba(0,0,0,0.8);}
 .bg-blk{background-color:#1f1a17;}
+.bg-charcoal{background-color:$charcoal;}
