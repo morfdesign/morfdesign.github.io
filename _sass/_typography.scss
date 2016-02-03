@@ -10,16 +10,16 @@ body {
   line-height:1.5;
 }
 
-h2 {
-  font-family: "Helvetica Neue";
-  font-size: 3rem;
-  line-height: 3rem;
-}
-
 p {
   line-height: 2rem;
   max-width:$measure-width;
   margin:0 auto $spacing-unit;
+  opacity:0.9;
+}
+
+small{
+  font-size:0.75rem;
+  opacity:0.75;
 }
 
 .measure-narrow{
