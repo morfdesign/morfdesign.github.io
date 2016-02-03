@@ -16,6 +16,10 @@
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
+
+.slick-prev {
+  display: none;
+}
 .slick-prev,
 .slick-next
 {
@@ -23,7 +27,8 @@
     line-height: 0;
 
     position: absolute;
-    top: 50%;
+    /*top: 50%;*/
+    bottom: 4rem;
 
     display: block;
 

@@ -68,14 +68,12 @@
 }
 
 .project-box {
-  // background-color: black;
   color: $off-white;
-  // position: absolute;
   top: 2rem;
   left: 2rem;
   z-index: 5;
-  // margin: 2rem;
-  padding: 0 2rem;
+  padding: 0 2rem 1rem;
+  width: 80%;
   // border: 4px solid;
   h2 {
     border-bottom: 1px solid;
