@@ -53,12 +53,12 @@ $white:rgb(255,255,255);
 
 
 // Our variables
-$base-font-family: courier new, courier, georgia, serif;
+$base-font-family: courier, georgia, serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     1.5rem;
 
 $text-color:       #000;
 $background-color: #fdfdfd;
@@ -68,9 +68,31 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$on-palm:          600px;
-$on-laptop:        800px;
+// Add or remove breakpoints as you desire
+// Incremental half-step powers of 16,
+$breakpoints:(
+s: 32em,
+m: 48em,
+l: 64em,
+xl: 96em,
+xxl: 128em,
+);
 
+@mixin breakpoint($size){
+@each $breakpoint, $value in $breakpoints {
+ @if $size == $breakpoint {
+ @media screen and (min-width: map-get($breakpoints, $breakpoint)){
+ @content;
+ }
+ }
+}
+}
+// EXAMPLE
+// body {
+// @include breakpoint(tablet){
+// font-size: 14px;
+// };
+// }
 
 // Pixel-to-em calculator
 @function em($target, $context: 16) {
@@ -78,6 +100,6 @@ $on-laptop:        800px;
 }
 
 // Enter in the pixel value you know, and it converts it into em
-.test-class-for-example {
-  width: em(400);
-}
+//.test-class-for-example {
+//  width: em(400);
+//}
