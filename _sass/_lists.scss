@@ -21,9 +21,14 @@ li {
     }
 }
 .list-reset {
-    //margin-left:0;
-    //padding-left: 0;
+    margin-left:0;
+    padding-left: 0;
     list-style: none;
+    li{
+      padding-top:$space1;
+      padding-bottom:$space1;
+      padding:$space1 0 $space1;
+    }
 }
 
 dl{
