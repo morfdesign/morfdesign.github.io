@@ -139,6 +139,7 @@ One that selects clients carefully, based on mutual interest and shared story
 
 What will clients get from us that makes us different?
 
+-
 - Youthful, optimistic energy with seasoned pragmatism.
 - Holistic vision followed by execution with rational methods & realistic budgets.
 - We aren't a one-trick pony.
@@ -156,10 +157,15 @@ Consider every project pragmatically, theoretically, and aesthetically.
 Define our aesthetics by research, breadth of translation.
 Pragmatic approaches, with entertaining flare.
 We believe that design as product should be accessible to everyone
+
 What led me to design was my desire to make my work accessible to everyone.
+
 Analysis of true problems rather than band-aids.
+
 We focus on accessibility of information, product, and communication. We take into consideration people of all abilities in every aspect of the work we make. (Probably the most unique angle we can take)
+
 Accessibility, affordability, and sustainability.
+
 We believe the focus of our energy should solve problems for the.
 We believe in the democratization of technology, rather than profiteering.
 
@@ -202,7 +208,6 @@ Sectors (In Approximate Order of Interest):
 - Other Agencies & Studios
 - Fashion, Gear, & Apparel
 - Educational Institutions
--
 
 People (In Approximate Order of Interest):
 - Artists, Musicians, & Other Designers
@@ -221,6 +226,11 @@ People (In Approximate Order of Interest):
 - The impoverished 3rd world family?
 
 ## Qualities They Need to Have
+
+
+-
+- Driven for success but not at the expense of others.
+
 
 - Commitment to people & community on all levels / betterment of lives in all aspects of their business, (no better products made by the hands of slaves)
 - Commitment to the Environment
@@ -274,11 +284,19 @@ We guarantee the things we make will function flawlessly and look beautiful.
 
 ## Specifically / Capabilities
 List:
-- Brand Positioning & Strategy
-- Logo & Identity System Design
-- Design & Manufacturing of Physical Environments
-- Process & Systems Design
-- Website & App Design & Development
-- Product Design & Consulting
+
+We implement research & strategic thinking through the following offerings:
+
+- Branding & Visual Identity
+
+- Web Design & Development
+  UX, UI, Visual Design, User Testing, Full Stack Development
+- Environmental design
+  Interior Design, Environmental Graphics, Digital Hardware integration
 - Digital &amp; Physical Prototyping
+    
+- Product Design & Consulting
+
 - Software + Hardware Integration
+
+- Process & Systems Design
