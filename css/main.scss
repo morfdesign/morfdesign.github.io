@@ -50,17 +50,17 @@
   // width: 100%;
   // max-width: 100vh;
   // height: auto;
-  &:before{
-    display:block;
-    content:' ';
-    width: 0;
-    height: 0;
-    border-bottom: 8rem solid $gray;
-    border-right: 100vw solid transparent;
-    position: absolute;
-    top: -8rem;
-    right: 0;
-  }
+  //&:before{
+  //  display:block;
+  //  content:' ';
+  //  width: 0;
+  //  height: 0;
+  //  border-bottom: 8rem solid $gray;
+  //  border-right: 100vw solid transparent;
+  //  position: absolute;
+  //  top: -8rem;
+  //  right: 0;
+  //}
 }
 
 #contact {
