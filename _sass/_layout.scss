@@ -76,6 +76,9 @@
   >li, >div{
     float:left;
   }
+  .cell{
+    padding:$space1;
+  }
 
 }
 
@@ -107,12 +110,7 @@ $column-count: 12;
 @mixin subtract-margin{
 	margin: 0 0 0 -#{$gutter};
 }
-.grid{
 
-
-	//@include grid;
-	//@include subtract-margin;
-}
 div.flex{
   @include flex;
 }
@@ -203,10 +201,10 @@ div.flex{
 /*
  * Clearfix Classes
  */
-//.cf:before,
-//.cf:after { content: " "; display: table; }
-//.cf:after { clear: both; }
-//.cf {       *zoom: 1; }
+.cf:before,
+.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf {       *zoom: 1; }
 
 
 

@@ -291,12 +291,12 @@ We implement research & strategic thinking through the following offerings:
 
 - Web Design & Development
   UX, UI, Visual Design, User Testing, Full Stack Development
+
 - Environmental design
   Interior Design, Environmental Graphics, Digital Hardware integration
-- Digital &amp; Physical Prototyping
-    
+
+
+- Digital &amp; Physical Prototyping    
 - Product Design & Consulting
-
 - Software + Hardware Integration
-
 - Process & Systems Design
