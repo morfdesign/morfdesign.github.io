@@ -70,6 +70,153 @@
 .pad-all-xl {padding:$space5;}
 .pad-all-xxl{padding:$space6;}
 
+
+.grid{
+  position:relative;
+  >li, >div{
+    float:left;
+  }
+
+}
+
+
+
+/**
+ * Establish Grids Using Flexbox
+ */
+// Global Grid Variables
+$gutter: $spacing-unit;
+$column-count: 12;
+
+// Convert Column Width to Relative Percentage
+@function column-percent($col-number, $percent:100%) {
+    @return ($percent / $column-count) * $col-number;
+}
+
+//@function ($col-number,)
+
+//Grid Container
+@mixin flex{
+	//position:relative;
+	display:flex;
+  display:-webkit-flex;
+	flex-flow:row wrap;
+	align-items: stretch;
+	margin:0;
+}
+@mixin subtract-margin{
+	margin: 0 0 0 -#{$gutter};
+}
+.grid{
+
+
+	//@include grid;
+	//@include subtract-margin;
+}
+div.flex{
+  @include flex;
+}
+
+
+//@mixin g($col){
+//	width: calc( #{column-percent($col)} - #{$gutter}) ;
+//	box-sizing:border-box;
+//	margin-left:$gutter;
+//}
+
+//$g1  : calc( #{column-percent(01)} - #{$gutter} );
+//$g2	 : calc( #{column-percent(02)} - #{$gutter} );
+//$g3	 : calc( #{column-percent(03)} - #{$gutter} );
+//$g4	 : calc( #{column-percent(04)} - #{$gutter} );
+//$g5	 : calc( #{column-percent(05)} - #{$gutter} );
+//$g6	 : calc( #{column-percent(06)} - #{$gutter} );
+//$g7	 : calc( #{column-percent(07)} - #{$gutter} );
+//$g8	 : calc( #{column-percent(08)} - #{$gutter} );
+//$g9	 : calc( #{column-percent(09)} - #{$gutter} );
+//$g10 : calc( #{column-percent(10)} - #{$gutter} );
+//$g11 : calc( #{column-percent(11)} - #{$gutter} );
+//$g12 : calc( #{column-percent(12)} - #{$gutter} );
+
+// Grid Items CSS CLASS NAMES
+@for $i from 1 through $column-count{
+	.col-#{$i} {
+		width:calc( #{$i} / #{$column-count} * 100% );
+		//margin-left: $gutter;
+	 }
+}
+@for $i from 1 through $column-count{
+  .s-col-#{$i} {
+     @include breakpoint(s) {
+      width:calc( #{$i} / #{$column-count} * 100% );
+     };
+   }
+}
+@for $i from 1 through $column-count{
+  .m-col-#{$i} {
+     @include breakpoint(m) {
+       width:calc( #{$i} / #{$column-count} * 100% );
+     };
+   }
+}
+@for $i from 1 through $column-count{
+   .l-col-#{$i} {
+     @include breakpoint(l) {
+       width:calc( #{$i} / #{$column-count} * 100% );
+     };
+   }
+}
+@for $i from 1 through $column-count{
+   .xl-col-#{$i} {
+      @include breakpoint(xl) {
+        width:calc( #{$i} / #{$column-count} * 100% );
+     };
+   }
+}
+
+
+
+/*
+ * Aspect Ratio Control on divs with no, or variable content.
+ */
+//@mixin ratio($width,$height){
+//	&:before{
+//		content:' ';
+//		display:block;
+//    position:absolute; // remove this when needed
+//		padding-top: ($height / $width) * 100%;
+//	}
+//}
+//.ratio-16-9{
+//  @include ratio(16,9);
+//}
+//.ratio-3-2{
+//  @include ratio(3,2);
+//}
+//.ratio-4-3{
+//  @include ratio(4,3);
+//}
+//.ratio-1-1{
+//  @include ratio(1,1);
+//}
+
+
+/*
+ * Clearfix Classes
+ */
+//.cf:before,
+//.cf:after { content: " "; display: table; }
+//.cf:after { clear: both; }
+//.cf {       *zoom: 1; }
+
+
+
+
+
+
+
+
+
+
 .full-screen{
   width: 100%;
   height: 100vh;
