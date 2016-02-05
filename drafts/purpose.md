@@ -130,16 +130,19 @@ Locations
 # Intention
 
 To build a practice that we wish existed--
+
 A practice that gives it's partners autonomy and community, rather than micromanagement and unreal expectations
+
 One that applies design thinking to transcend mediums and improve a business at it's core, rather than falsely advertise
+
 One with regulated scale, to maintain standards of quality for work and health of working relationships
+
 One that selects clients carefully, based on mutual interest and shared story
 
 # Statement of benefit
 
 What will clients get from us that makes us different?
 
--
 - Youthful, optimistic energy with seasoned pragmatism.
 - Holistic vision followed by execution with rational methods & realistic budgets.
 - We aren't a one-trick pony.

@@ -1,7 +1,14 @@
 //Global Settings
 
-$measure-width:30em;
+$measure-width:40em;
 $measure-width-narrow:22em;
+.measure{
+  max-width:$measure-width;
+}
+.measure-narrow{
+  max-width:$measure-width-narrow;
+}
+
 
 /**
  * Basic styling
@@ -45,9 +52,7 @@ small{
   opacity:0.6;
 }
 
-.measure-narrow{
-  max-width:$measure-width-narrow;
-}
+
 
 
 //Text Decoration Classes
