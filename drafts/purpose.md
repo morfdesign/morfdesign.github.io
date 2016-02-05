@@ -17,6 +17,47 @@ An Agency has process and tradition.
 A studio decides to oil paint on wednesday afternoon in the office.
 An Agency has strictly kept work hours.
 
+Purpose
+We're building the creative practice we wish existed.
+
+For our clients: we build trust with your users, customers and communities.
+For ourselves: we believe that autonomy and community are the most important factors in a creative life.
+
+We believe that value lies beyond profit,
+
+In every project, we seek to provide sustainability, social benefit, and profit to our clients bottom line.
+
+For us to accept a project, it must meet the following criteria:
+Social Good
+Environmental Improvement
+
+
+We seek open, honest relationships with our clients and we encourage them to do the same with their customers.
+
+
+
+We help companies, organizations, and people build trust with their users, customers, and communities.
+We want to feel as confident in our clients as they do in us. For that reason, we take care to make sure our goals and stories align.
+
+We believe that autonomy and community are the most important factors in a creative career. Without control of your work and trust from your teammates, you lose heart and reason for working.
+Nothing kills our creativity like hierarchy, micromanagement, and 8 hours at the same desk every day.
+
+We take pride in our agility,
+
+Who We Work With:
+Dreamers, Go Getters, Social Workers.
+
+What We Do:
+Brand Strategy & Consulting
+Media Installations & Technical Work
+
+Our process
+Iterative, Agile.
+We aren't decorators and we don't shine lemons.
+
+
+Through research, strategy, design, and manufacturing.
+We believe that creative goals should align with business goals,
 
 ## Principles of Practice:
 
@@ -44,13 +85,11 @@ Like some kind of short story, or a simple example/parable.
 - Function and Form
 both need to be successful in order to capture attention, great food without a sign means slow growth, but beautiful menus with disappointing food will kill a customer base. We understand that you need both to succeed.
 Our creative goals are always directly aligned with business goals.
-No one wants to polish a turd.
 We'll say it plain and simple. We're not in the business of polishing turds.
 We work
 
 - Everything All The Time
 Nothing builds business strength like brand consistency in every touchpoint.
-
 For Our Employees / Other Coworkers
 
 - We believe that autonomy and community are the most important factors in a creative career.
@@ -84,3 +123,162 @@ Making fun of it.
 Willing to Travel
 MORF GUIDE
 Locations
+
+# Purpose
+
+
+# Intention
+
+To build a practice that we wish existed--
+A practice that gives it's partners autonomy and community, rather than micromanagement and unreal expectations
+One that applies design thinking to transcend mediums and improve a business at it's core, rather than falsely advertise
+One with regulated scale, to maintain standards of quality for work and health of working relationships
+One that selects clients carefully, based on mutual interest and shared story
+
+# Statement of benefit
+
+What will clients get from us that makes us different?
+
+- Youthful, optimistic energy with seasoned pragmatism.
+- Holistic vision followed by execution with rational methods & realistic budgets.
+- We aren't a one-trick pony.
+- We tell it like it is.
+- You get analysis, strategy, and insight. We don't just want to know your business goals, we find out what your people's goals are.
+- We refer to users, customers, and consumers as people. This helps us learn more about them.
+
+# Our Principles of Design
+
+We believe function and beauty are symbiotic. We look over the engine and we put on a new coat of paint.
+We believe in clarity of message over
+We believe in simplicity over trends
+Thorough research
+Consider every project pragmatically, theoretically, and aesthetically.
+Define our aesthetics by research, breadth of translation.
+Pragmatic approaches, with entertaining flare.
+We believe that design as product should be accessible to everyone
+What led me to design was my desire to make my work accessible to everyone.
+Analysis of true problems rather than band-aids.
+We focus on accessibility of information, product, and communication. We take into consideration people of all abilities in every aspect of the work we make. (Probably the most unique angle we can take)
+Accessibility, affordability, and sustainability.
+We believe the focus of our energy should solve problems for the.
+We believe in the democratization of technology, rather than profiteering.
+
+We believe in open sourcing.
+We believe in design as service to one's community.
+
+" I want to weild design like a sword of justice "
+  -- paraphrased from James Victore
+
+" Your logo is bullshit. Your studio is bullshit. Your  "
+
+We are democratizing design.
+
+### Interjection: What are the biggest problems facing our society? If we had to rank them.
+
+- Environmental / Ecological disorder
+- - Subset: Environmental Disasters (How about better things than poster benefits?)
+- Food & Water Shortage
+- Lack of Health & Medical Care (Disease Outbreaks)
+- Lack of Educational systems
+- Digital Literacy
+- Disparity of wealth & resources (war & violence can generally be attributed to this)
+- Inter-societal and intra-societal intolerance
+- Institutionalized mistreatment & hatred
+
+### Should we focus on these problems or make these a part of our ideals?
+
+-
+
+
+
+# Who We Work With
+
+## Who We Want to Work With
+
+Sectors (In Approximate Order of Interest):
+- Arts & Culture
+- Museums, Cultural Institutions
+- Outdoor & Athletic Industries
+- Other Agencies & Studios
+- Fashion, Gear, & Apparel
+- Educational Institutions
+-
+
+People (In Approximate Order of Interest):
+- Artists, Musicians, & Other Designers
+- Craftspeople, & Independent Builders & Makers
+- Inventors
+- Restauranteurs
+- Graduate Students & Researchers
+- Sociologists & Psychologists
+- Doctors & Health Researchers
+- Real Estate Agents
+
+## Who we want our work to benefit
+
+- The working american? The middle class american?
+- The impoverished american family
+- The impoverished 3rd world family?
+
+## Qualities They Need to Have
+
+- Commitment to people & community on all levels / betterment of lives in all aspects of their business, (no better products made by the hands of slaves)
+- Commitment to the Environment
+- Creative passion
+- Functional passion
+
+## Who We Have Worked With
+
+Generally Speaking:
+- Filmmakers
+- Startups
+- Global Media Companies
+- Creative Agencies
+- Tech Companies
+- Fortune 500 Companies
+- Realtors
+- Non Profits
+- Transition Towns
+- Restaurants & Bars
+- Natural Food & Wellness Markets
+-
+
+Clients:
+- The Grid
+- Tribeca Film Institute
+- National Geographic
+- Wired UK
+- Cinereach
+- Bike & Build
+- The Woolley Market
+- Suffoca
+- Pacific Studio
+- Logistipoint
+
+Studios, Startups & Agencies:
+- The Experiment
+- Bluecadet
+- The Heads of State
+- McKinney
+- MurmurCo
+
+
+- Does this even matter at all?
+
+
+# What We Do
+
+## Generally (Value Proposition)
+Add value to our client's brands, products, and companies, by connecting them to their customers and communities through strategic design.
+We guarantee the things we make will function flawlessly and look beautiful.
+
+## Specifically / Capabilities
+List:
+- Brand Positioning & Strategy
+- Logo & Identity System Design
+- Design & Manufacturing of Physical Environments
+- Process & Systems Design
+- Website & App Design & Development
+- Product Design & Consulting
+- Digital &amp; Physical Prototyping
+- Software + Hardware Integration
