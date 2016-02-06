@@ -31,20 +31,35 @@ layout: home
       <!-- <h1>Work</h1> -->
 
 
-      <div class="work-carousel cf">
-        <div> <img src="img/woolley.jpg" alt=""> </div>
-        <div class=""> <img src="img/work/woolleyneon.jpg" alt=""> </div>
-        <div class=""> <img src="img/work/mobileUIdesign.jpg" alt=""> </div>
-        <div class=""> <img src="img/work/bikebuildjerseys.jpg" alt=""> </div>
-        <div class=""> <img src="img/work/desktopUIdesign.jpg" alt=""> </div>
-        <div class=""> <img src="img/work/brightcove.jpg" alt=""> </div>
-        <div class=""> <img src="img/work/basecampcoffee.gif" alt=""> </div>
-        <div class=""> <img src="img/work/woolleyentrance.jpg" alt=""> </div>
-        <div class=""> <img src="img/work/woolleylogo.jpg" alt=""> </div>
-        <div class=""> <img src="img/work/ux-grid.jpg" alt=""> </div>
-        <div class=""> <img src="img/work/ear.gif" alt=""> </div>
-        <div class=""> <img src="img/work/tfisandbox.jpg" alt=""> </div>
-        <div class=""> <img src="img/work/roobrik-iphone.jpg" alt=""> </div>
+      <div class="work-carousel">
+        <div> <img data-lazy="img/work/wm/woolleygrid.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/wm/woolleylogo.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/wm/woolleyrear.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/wm/woolleyneon.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/wm/woolleycorner.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/wm/woolleybutcher.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/wm/woolleymural.jpg" alt=""> </div>
+
+
+
+        <div> <img data-lazy="img/work/grid/grid.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/grid/desktopUIdesign.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/grid/ux-grid.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/grid/mobileUIdesign.jpg" alt=""> </div>
+
+        <div> <img data-lazy="img/work/thrill/thrillderness.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/thrill/thrillderness_4.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/thrill/thrillderness_5.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/thrill/thrillderness_3.jpg" alt=""> </div>
+
+        <div> <img data-lazy="img/work/er/energy.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/er/energy_2.jpg" alt=""> </div>
+
+        <div> <img data-lazy="img/work/bnb/bikebuild_1.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/bnb/bikebuild_2.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/bnb/bikebuild_3.jpg" alt=""> </div>
+        <div> <img data-lazy="img/work/bnb/bikebuild_4.jpg" alt=""> </div>
+
       </div>
 
       <div class="float-center measure-narrow grid cf pad-t-l">
@@ -97,9 +112,8 @@ layout: home
   </section>
 
 
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="/slick/slick.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
 
   <script type="text/javascript">
     $(document).ready(function(){
@@ -107,7 +121,8 @@ layout: home
         autoplay: true,
         pauseOnHover: true,
         dots: true,
-        arrows: false
+        lazyLoad: 'ondemand',
+        //arrows: false
       });
     });
   </script>
