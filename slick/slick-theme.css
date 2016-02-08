@@ -111,7 +111,7 @@
 }
 .slick-next:before
 {
-    content: '→';
+    content: 'NEXT';
 }
 [dir='rtl'] .slick-next:before
 {

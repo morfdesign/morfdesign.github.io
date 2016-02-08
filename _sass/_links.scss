@@ -2,7 +2,8 @@ a {
   /*display: block;*/
   text-decoration: none;
   color: black;
-  box-shadow: 0 0 0 1px black;
+  border: 2px solid black;
+  // box-shadow: 0 0 0 1px black;
   padding:$space2 $space3;
 }
 a:hover {

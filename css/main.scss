@@ -18,7 +18,8 @@
         "colors",
         "animation",
         "lists",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "slick-theme"
 ;
 
 
@@ -105,26 +106,31 @@
 //   }
 // }
 
-.carousel-frame {
-  padding: 0;
-  // padding: 0;
-}
 
-.project-box {
-  color: $gray;
-  top: 2rem;
-  left: 2rem;
-  z-index: 5;
-  padding: 0 2rem 1rem;
-  width: 80%;
+
+.info-box {
+  // color: $gray;
+  // top: 2rem;
+  // left: 2rem;
+  // z-index: 5;
+  // padding: 0 2rem 1rem;
+  // width: 80%;
   // border: 4px solid;
   h2 {
-    border-bottom: 1px solid;
-    padding-bottom: 1rem;
+    padding-top: .2rem;
   }
   p {
-    margin: 0 auto 30px 0;
+    // margin: 0 auto 30px 0;
   }
+}
+
+.work-carousel {
+  // padding: 2rem;
+}
+
+.project-frame{
+  padding: 4rem;
+  border-bottom: 1px solid white;
 }
 
 
