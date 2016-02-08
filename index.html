@@ -3,8 +3,6 @@ layout: home
 ---
   <section id="brand" class="full-screen bg-gray dis-t pos-rel text-center pad-all-l" role="masthead">
     <div class="v-center">
-      <!-- <h1 class="b80">MORF</h1> -->
-      <!-- <div class="headerAnimation"></div> -->
       <div class="measure-narrow float-center pad-all-l"> <img src="img/studio/morf-logo15fps.gif" alt="Morf"> </div>
       <p class="measure-narrow float-center">Strategic, interdisciplinary design for the everybody.</p>
     </div>
@@ -48,6 +46,18 @@ layout: home
 
       <div class="pad-all-m b-b-1sw">
         <div class="work-carousel">
+          <div> <img data-lazy="img/work/thrill/thrillderness.jpg" alt=""> </div>
+          <div> <img data-lazy="img/work/thrill/thrillderness_4.jpg" alt=""> </div>
+          <div> <img data-lazy="img/work/thrill/thrillderness_5.jpg" alt=""> </div>
+          <div> <img data-lazy="img/work/thrill/thrillderness_3.jpg" alt=""> </div>
+        </div>
+        <div class="info-box">
+          <p>Thrillderness</p>
+        </div>
+      </div>
+
+      <div class="pad-all-m b-b-1sw">
+        <div class="work-carousel">
           <!-- <div class="title-slide"><h2>The Grid</h2></div> -->
           <div class="title-slide"><img data-lazy="img/work/grid/leigh-bw.jpg" alt=""> </div>
           <div> <img data-lazy="img/work/grid/desktopUIdesign.jpg" alt=""> </div>
@@ -56,18 +66,6 @@ layout: home
         </div>
         <div class="info-box">
           <p>The Grid</p>
-        </div>
-      </div>
-
-      <div class="pad-all-m b-b-1sw">
-        <div class="work-carousel">
-          <div> <img data-lazy="img/work/thrill/thrillderness.jpg" alt=""> </div>
-          <div> <img data-lazy="img/work/thrill/thrillderness_4.jpg" alt=""> </div>
-          <div> <img data-lazy="img/work/thrill/thrillderness_5.jpg" alt=""> </div>
-          <div> <img data-lazy="img/work/thrill/thrillderness_3.jpg" alt=""> </div>
-        </div>
-        <div class="info-box">
-          <p>Thrillderness</p>
         </div>
       </div>
 
@@ -130,18 +128,15 @@ layout: home
     </div>
   </section>
 
-
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
 
   <script type="text/javascript">
     $(document).ready(function(){
       $('.work-carousel').slick({
-        // autoplay: true,
         pauseOnHover: true,
         dots: true,
         lazyLoad: 'ondemand',
-        //arrows: false
       });
     });
   </script>
