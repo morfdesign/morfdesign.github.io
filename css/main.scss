@@ -16,6 +16,7 @@
         "layout",
         "navigation",
         "colors",
+        "borders",
         "animation",
         "lists",
         "syntax-highlighting",
@@ -91,7 +92,14 @@
   fill: white;
   padding: 20px;
 }
-
+#skillsList{
+  @include breakpoint(m) {
+    -webkit-column-count:2;
+       -moz-column-count:2;
+        -ms-column-count:2;
+         -o-column-count:2;
+  }
+}
 
 // #work-huge {
 //   color:$off-white;

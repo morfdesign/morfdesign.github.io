@@ -11,6 +11,50 @@
 .dis-f { display: flex;}
 .dis-tc{ display: table-cell;}
 
+
+.s-dis-i {
+  @include breakpoint(s) {
+    display: inline;
+
+  };
+
+}
+.s-dis-ib{
+  @include breakpoint(s) {
+    display: inline-block;
+
+  };
+
+}
+.s-dis-b {
+  @include breakpoint(s) {
+    display: block;
+
+  };
+
+}
+.s-dis-t {
+  @include breakpoint(s) {
+    display: table;
+
+  };
+
+}
+.s-dis-f {
+  @include breakpoint(s) {
+  display: flex;
+  };
+}
+.s-dis-tc{
+  @include breakpoint(s) {
+  display: table-cell;
+  };
+}
+
+@include breakpoint(s) {
+
+};
+
 //Coordinates
 .top-0  { top: 0;}
 .top-s  {}
