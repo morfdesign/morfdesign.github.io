@@ -107,6 +107,8 @@
 
 //Padding
 
+.pad-all-0 {padding:0;}
+
 .pad-all-xs {padding:$space1;}
 .pad-all-s  {padding:$space2;}
 .pad-all-m  {padding:$space3;}
@@ -142,6 +144,8 @@
 .pad-r-xl {padding-right:$space5;}
 .pad-r-xxl{padding-right:$space6;}
 
+
+.mar-all-0{margin:0;}
 
 .mar-all-xs {margin:$space1;}
 .mar-all-s  {margin:$space2;}

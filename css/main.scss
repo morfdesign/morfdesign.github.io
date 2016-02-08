@@ -35,11 +35,15 @@
     content:' ';
     width: 0;
     height: 0;
-    border-bottom: 8rem solid $cyan;
+    border-bottom: 4rem solid $cyan;
     border-right: 100vw solid transparent;
     position: absolute;
-    top: -8rem;
+    top: -4rem;
     right: 0;
+    @include breakpoint(m) {
+      top: -8rem;
+      border-bottom: 8rem solid $cyan;
+    };
   }
   h2 {
     //max-width:30rem;
@@ -48,22 +52,6 @@
   }
 }
 
-#work {
-  // width: 100%;
-  // max-width: 100vh;
-  // height: auto;
-  //&:before{
-  //  display:block;
-  //  content:' ';
-  //  width: 0;
-  //  height: 0;
-  //  border-bottom: 8rem solid $gray;
-  //  border-right: 100vw solid transparent;
-  //  position: absolute;
-  //  top: -8rem;
-  //  right: 0;
-  //}
-}
 
 #contact {
   background-color:$marigold;
@@ -72,11 +60,14 @@
     content:' ';
     width: 0;
     height: 0;
-    border-top: 8rem solid $gray;
+    border-top: 4rem solid $gray;
     border-left: 100vw solid transparent;
     position: absolute;
     top: 0;
     right: 0;
+    @include breakpoint(m) {
+      border-top: 8rem solid $gray;
+    };
   }
   //color:$white;
   /*z-index: 2;*/
