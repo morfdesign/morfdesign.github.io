@@ -152,6 +152,83 @@ What will clients get from us that makes us different?
 
 # Our Principles of Design
 
+We strive to make work that works first and looks great second.
+
+ We look outside of the common uses of design and technology
+
+Who?
+
+Where?
+
+Why?
+
+How?
+
+Wut?
+
+We believe in basic interconnectedness of everything, and joint responsibility to all humanity.
+We happen to be talented at design.
+
+We believe in service to humankind.  / humanity, and responsibility to our planet.
+Our paths led to design because of our desire to make creativity accessible.
+
+
+
+We believe that our work can be greater than the sum of our parts.
+
+
+We think creatively and connect people with different skills to accomplish work that is greater than the sum of our parts.
+We are orchestrators of accessibility, aesthetics,
+
+Our work is pragmatic, accessible, and whenever possible, whimsical/delightful.
+
+
+Like most businesses, design tends to serve the already well-served, and flock toward the crowded markets.
+
+We see great opportunity in looking to the rest of the globe, looking to the future, looking beyond the hottest app or latest way to complain.
+
+We look outside our areas of expertise
+
+We strive to make work that transcends geography and time.
+We believe function and beauty are symbiotic.
+
+To put it simply,
+We make carefully considered, creative work that works--for as many people as possible.
+
+we make work that works.
+
+because we make work that stands the test of time.
+we look to the future
+we research the past, consider the future, and make work for the present.
+because the right answer to a problem isn't always what's trending.
+and doesn't just look pretty. pragmatism, usefulness, timelessness, functionality,
+
+Wut?
+
+Strategic, because we make work that works—-today and tomorrow.
+Interdisciplinary, because the right solution isn't always an integrated social media virus.
+Everybody, because we believe in the democratization of design.
+
+MORF is led by Spencer Harrison and Alex Bloom.
+
+
+ of as many people as possible
+ around the globe
+
+
+because we believe strive to make work that transcends geographic & cultural & economic borders, to serve as many people as possible. because the right answer to a problem isn't always what's trending. (so hot right now)
+
+
+Design - because
+
+we believe in inclusivity, that creativity shouldn't require, great
+
+
+We want our work to work-—for as many people as possible, and for as many years as possible.
+And is beautiful, attractive, timeless, craftsmanship, and is accessible for all.
+
+
+
 We believe function and beauty are symbiotic. We look over the engine and we put on a new coat of paint.
 We believe in clarity of message over
 We believe in simplicity over trends
