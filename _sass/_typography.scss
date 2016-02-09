@@ -57,7 +57,12 @@ small{
 }
 
 
-
+mark{
+  //padding:$space1 0;
+  &:hover{
+    cursor:help;
+  }
+}
 
 //Text Decoration Classes
 .underline{}
