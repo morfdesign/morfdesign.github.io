@@ -1,11 +1,14 @@
 a {
   text-decoration: underline;
   padding:$space2 $space3;
+  color:$black;
+  &:visited{
+    color:$grey-color;
+  }
 }
 a:hover {
   color: black;
 }
-
 a.button{
   text-decoration:none;
   color: black;

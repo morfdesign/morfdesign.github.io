@@ -30,27 +30,34 @@ layout: home
   </section>
 
   <section id="work" class="bg-gray pos-rel pad-b-l">
+      <div class="float-center max-width-l">
+          <h1> Work </h1>
+      </div>
+
 
       <div class="pad-all-m b-b-1sw">
-        <div class="work-carousel">
-          <!-- <div> <img data-lazy="img/work/wm/woolleygrid.jpg" alt="Clockwise from top left, window painting, coffee cups, a 1919 Model T farm truck, gift cards, painting cold beer on the exterior, and a fisherman environmental sign inspired by a 1920's skagit valley photo."> </div> -->
-          <div> <img data-lazy="img/work/wm/woolleyentrance.jpg" alt="View of the market from Main Street, in Sedro-Woolley Washington."> </div>
-          <div> <img data-lazy="img/work/wm/woolleyinterior.jpg" alt="Products and painted interior signs."> </div>
-          <div> <img data-lazy="img/work/wm/woolleyneon.jpg" alt="The Woolley Market Logo in Neon mounted to a 40-inch saw blade salvaged from a local mill."> </div>
+        <div class="float-center max-width-l">
+          <div class="work-carousel">
+            <!-- <div> <img data-lazy="img/work/wm/woolleygrid.jpg" alt="Clockwise from top left, window painting, coffee cups, a 1919 Model T farm truck, gift cards, painting cold beer on the exterior, and a fisherman environmental sign inspired by a 1920's skagit valley photo."> </div> -->
+            <div> <img data-lazy="img/work/wm/woolleyentrance.jpg" alt="View of the market from Main Street, in Sedro-Woolley Washington."> </div>
+            <div> <img data-lazy="img/work/wm/woolleyinterior.jpg" alt="Products and painted interior signs."> </div>
+            <div> <img data-lazy="img/work/wm/woolleyneon.jpg" alt="The Woolley Market Logo in Neon mounted to a 40-inch saw blade salvaged from a local mill."> </div>
 
-          <div> <img data-lazy="img/work/wm/woolleyexterior.jpg" alt="Manufactured marquee sign and painted exterior signs."> </div>
-          <div> <img data-lazy="img/work/wm/woolleylogo.jpg" alt="The Woolley Market Brand Logos"> </div>
-          <div> <img data-lazy="img/work/wm/woolleymural.jpg" alt="Gateway to the North Cascades has long been the town motto for Sedro Woolley, so we painted it into a mural next to an arial photo showing the town and it's relationship to Mt. Baker."> </div>
+            <div> <img data-lazy="img/work/wm/woolleyexterior.jpg" alt="Manufactured marquee sign and painted exterior signs."> </div>
+            <div> <img data-lazy="img/work/wm/woolleylogo.jpg" alt="The Woolley Market Brand Logos"> </div>
+            <div> <img data-lazy="img/work/wm/woolleymural.jpg" alt="Gateway to the North Cascades has long been the town motto for Sedro Woolley, so we painted it into a mural next to an arial photo showing the town and it's relationship to Mt. Baker."> </div>
 
 
-        </div>
-        <div class="info-box">
-          <p class="mar-all-0"> Client: <a href="http://woolleymarket.com" target="_blank"> The Woolley Market </a> </p>
-          <span class="uppercase"> <small> Branding | Signage | Environmental Design | Packaging | Apparel | Special Items </small> </span>
+          </div>
+          <div class="info-box">
+            <p class="mar-all-0"> Client: <a href="http://woolleymarket.com" target="_blank"> The Woolley Market </a> </p>
+            <span class="uppercase"> <small> Branding | Signage | Environmental Design | Packaging | Apparel | Special Items </small> </span>
+          </div>
         </div>
       </div>
 
       <div class="pad-all-m b-b-1sw">
+        <div class="float-center max-width-l">
         <div class="work-carousel">
           <div> <img data-lazy="img/work/thrill/thrillderness.jpg" alt="Thrillderness logo set over the opening of a momentarily dry Yosemite Falls."> </div>
           <div> <img data-lazy="img/work/thrill/thrillderness_website.jpg" alt="Screenshots of Thrillderness website presented in a large desktop-like browser and phone browser."> </div>
@@ -62,9 +69,11 @@ layout: home
           <p class="mar-all-0"> Project: <a href="http://thrillderness.co" target="_blank">Thrillderness </a> </p>
           <span class="uppercase"> <small> Branding | UX | UI | Web Development | Experiential Design </small> </span>
         </div>
+        </div>
       </div>
 
       <div class="pad-all-m b-b-1sw">
+        <div class="float-center max-width-l">
         <div class="work-carousel">
           <div> <img data-lazy="img/work/grid/mobileUIdesign.jpg" alt="An example of The Grid's User Interface on a mobile browser."> </div>
           <div> <img data-lazy="img/work/grid/account.jpg" alt="An example of The Grid's User Interface on a desktop browser."> </div>
@@ -77,9 +86,11 @@ layout: home
           <p class="mar-all-0"> Project: <a href="http://thegrid.io" target="_blank"> The Grid </a>  </p>
           <span class="uppercase"> <small> UX | UI | Visual Design | Prototyping </small> </span>
         </div>
+        </div>
       </div>
 
       <div class="pad-all-m b-b-1sw">
+        <div class="float-center max-width-l">
         <div class="work-carousel">
           <div> <img data-lazy="img/work/bnb/bikebuild_1.jpg" alt=""> </div>
           <div> <img data-lazy="img/work/bnb/bikebuild_2.jpg" alt=""> </div>
@@ -90,6 +101,7 @@ layout: home
           <p class="mar-all-0"> Client: <a href="http://bikeandbuild.org"> Bike &amp; Build </a>  </p>
           <span class="uppercase"> <small> Apparel | UX | UI | Visual Design </small> </span>
 
+        </div>
         </div>
       </div>
 
@@ -148,7 +160,7 @@ layout: home
       $('.work-carousel').slick({
         pauseOnHover: true,
         dots: true,
-        lazyLoad: 'ondemand',
+        lazyLoad: 'progressive',
       });
     });
   </script>
