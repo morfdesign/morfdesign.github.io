@@ -31,8 +31,8 @@ body, .onepage-wrapper, html {
 
 .onepage-pagination {
   position: absolute;
-  right: 10px;
-  top: 50%;
+  right: .5rem;
+  top: calc(50% - 3rem);
   z-index: 5;
   list-style: none;
   margin: 0;
@@ -47,7 +47,7 @@ body, .onepage-wrapper, html {
   width: 4px;
   height: 4px;
   display: block;
-  
+  box-shadow:none;
 }
 .onepage-pagination li a:before{
   content: '';
