@@ -1,18 +1,37 @@
 a {
-  text-decoration: underline;
-  padding:$space2 $space3;
+  transition: all .3s;
   color:$black;
-  &:visited{
-    color:$grey-color;
-  }
+  text-decoration:none;
+  box-shadow:0 1px 0 0 $b40;
 }
+a:link,
+a:visited{
+    color:$black;
+}
+.link { text-decoration: none; }
 a:hover {
-  color: black;
+  //color:$b70;
+  box-shadow:0 2px 0 0 $b40;
+}
+a:active{
+  transition: all .3s;
+  //color:$b80;
+  box-shadow:0 2px 0 0 $black;
 }
 a.button{
+  transition: background-color .3s;
   text-decoration:none;
   color: black;
+  padding:$space2 $space3;
   box-shadow: 0 0 0 2px black;
   //border: 2px solid black;
   padding:$space2 $space3;
+  &:hover{
+    background-color:$w10;
+    //box-shadow: 0 0 0 4px black;
+  }
+  &:active{
+    background-color:$b10;
+    //box-shadow: 0 0 0 4px black;
+  }
 }
