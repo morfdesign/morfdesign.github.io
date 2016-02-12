@@ -9,6 +9,9 @@ $measure-width-narrow:22em;
   max-width:$measure-width-narrow;
 }
 
+.lead-s{line-height:$leading-solid;}
+.lead-t{line-height:$leading-text;}
+.lead-h{line-height:$leading-headline;}
 
 /**
  * Basic styling
@@ -37,7 +40,7 @@ ul, ol, dl, figure, small,
 
 
 p {
-  line-height: 2rem;
+  //line-height: 2rem;
   max-width:$measure-width;
   opacity:0.9;
 }
