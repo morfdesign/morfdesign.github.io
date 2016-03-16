@@ -9,14 +9,14 @@
     <meta name="author" content="MORF">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ site.description }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:url" content="http://morf.studio/" >
     <meta property="og:site_name" content="MORF">
     <meta property="og:image" content="{{"/img/morf-logo15fps.gif" | prepend:site.baseurl }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@morfstudio">
-    <meta name="twitter:creator" content="@morfstudio">
+    <meta name="twitter:creator" content="{{site.twitter_username}}">
     <meta name="twitter:title" content="{{ site.description }}">
     <meta name="twitter:description" content="{{ site.description }}">
     <meta name="twitter:image" content="{{"/img/morf-logo15fps.gif" | prepend:site.baseurl }}">

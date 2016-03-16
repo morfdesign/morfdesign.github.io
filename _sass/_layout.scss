@@ -29,7 +29,6 @@
 .s-dis-b {
   @include breakpoint(s) {
     display: block;
-
   };
 
 }
@@ -115,7 +114,6 @@
 //Padding
 
 .pad-all-0 {padding:0;}
-
 .pad-all-xs {padding:$space1;}
 .pad-all-s  {padding:$space2;}
 .pad-all-m  {padding:$space3;}
@@ -174,6 +172,8 @@
 .mar-b-l  {margin-bottom:$space4;}
 .mar-b-xl {margin-bottom:$space5;}
 .mar-b-xxl{margin-bottom:$space6;}
+
+
 
 .grid{
   position:relative;
