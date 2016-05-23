@@ -1,0 +1,14 @@
+# Site settings
+title: Morf Studio
+email: info@morf.design
+description: > # this means to ignore newlines until "baseurl:"
+  MORF - A design consultancy.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://morf.studio/" # the base hostname & protocol for your site
+twitter_username: morfstudio
+instagram_username: morfstudio
+github_username:  morf-studio
+
+
+# Build settings
+markdown: kramdown
