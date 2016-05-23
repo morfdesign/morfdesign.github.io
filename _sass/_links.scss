@@ -19,19 +19,28 @@ a:active{
   box-shadow:0 2px 0 0 $black;
 }
 a.button{
-  transition: background-color .3s;
+  font-family: 'Karla',-apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  transition: all .3s;
   text-decoration:none;
-  color: black;
+  color: $white;
+  background-color:$charcoal;
+  //text-transform:uppercase;
+  font-weight:bold;
+  //letter-spacing: .1em;
   padding:$space2 $space3;
-  box-shadow: 0 0 0 2px black;
+  box-shadow: 0 1px 1px 1px $b10;
+
   //border: 2px solid black;
   padding:$space2 $space3;
   &:hover{
-    background-color:$w10;
-    //box-shadow: 0 0 0 4px black;
+    //background-color:$marigold;
+    box-shadow: 0 3px 1px 1px $b10;
   }
   &:active{
-    background-color:$b10;
-    //box-shadow: 0 0 0 4px black;
+    //background-color:$b;
+    box-shadow: 0 1px 1px 1px $b20;
   }
 }

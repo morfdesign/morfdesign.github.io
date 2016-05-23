@@ -6,6 +6,7 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "variables",
+        "colors",
         "base",
         "layout",
         "typography",
@@ -15,7 +16,7 @@
         "links",
         "layout",
         "navigation",
-        "colors",
+
         "borders",
         "animation",
         "lists",
