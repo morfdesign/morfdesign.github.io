@@ -20,12 +20,13 @@ $leading-headline: 1.25;
 $leading-text: 1.5;
 
 //Spacing Scale
-$space1: .25rem;
-$space2: .5rem;
-$space3: 1rem;
-$space4: 2rem;
-$space5: 4rem;
-$space6: 8rem;
+$space-xs: .25rem;
+$space-s: .5rem;
+$space-m: 1rem;
+$space-l: 2rem;
+$space-xl: 4rem;
+$space-xxl: 8rem;
+$space-xxxl: 16rem;
 
 //Colors, could also be applied as pure tone with opacities, like google mdl.
 // so example: .b10{color:$000;opacity:0.1;}
@@ -53,7 +54,10 @@ $white:rgb(255,255,255);
 
 
 // Our variables
-$base-font-family: courier, georgia, serif;
+$base-font-family: -apple-system, BlinkMacSystemFont,
+  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+  "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
