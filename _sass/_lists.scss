@@ -3,14 +3,14 @@ ul {
   //padding-bottom: 2rem;
 }
 li {
-  padding: $space1;
+  padding: $space-xs;
 }
 
 /**
  * Lists
  */
 ul, ol, dl {
-    padding-left: $space3;
+    padding-left: $space-m;
     margin:0 auto $spacing-unit;
 }
 
@@ -25,9 +25,9 @@ li {
     padding-left: 0;
     list-style: none;
     li{
-      padding-top:$space1;
-      padding-bottom:$space1;
-      padding:$space1 0 $space1;
+      padding-top:$space-xs;
+      padding-bottom:$space-xs;
+      padding:$space-xs 0 $space-xs;
     }
 }
 
@@ -35,10 +35,10 @@ dl{
   list-style:square;
   dt{
     font-weight:bold;
-    padding: $space1;
+    padding: $space-xs;
   }
   dd{
-    padding: $space1;
+    padding: $space-xs;
     margin:0;
   }
   //  padding-bottom: 2rem;

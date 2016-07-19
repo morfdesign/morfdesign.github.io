@@ -5,16 +5,18 @@
 
   <body>
     {% include icons.html %}
-    {% include header.html %}
+    <div class="max-width-xl float-center cf">
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+      {% include header.html %}
+
+      <div class="page-content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
       </div>
+
+      {% include footer.html %}
     </div>
-
-    {% include footer.html %}
-
   </body>
 
 </html>
