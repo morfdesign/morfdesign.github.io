@@ -3,6 +3,7 @@ a {
   color:$black;
   text-decoration:none;
   box-shadow:0 1px 0 0 $b40;
+  font-weight:600;
 }
 a:link,
 a:visited{
@@ -30,11 +31,11 @@ a.button{
   //text-transform:uppercase;
   font-weight:bold;
   //letter-spacing: .1em;
-  padding:$space2 $space3;
+  padding:$space-s $space-m;
   box-shadow: 0 1px 1px 1px $b10;
 
   //border: 2px solid black;
-  padding:$space2 $space3;
+  padding:$space-s $space-m;
   &:hover{
     //background-color:$marigold;
     box-shadow: 0 3px 1px 1px $b10;

@@ -1,8 +1,8 @@
 ---
-layout: page
-title: Purpose
-permalink: /purpose/
----
+
+// layout: page
+// title: Purpose
+// permalink: /purpose/
 
 # Purpose
 
