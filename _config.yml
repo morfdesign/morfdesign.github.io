@@ -12,3 +12,6 @@ github_username:  morf-studio
 
 # Build settings
 markdown: kramdown
+
+#Exclude files
+exclude: [node_modules, gulpfile.js]
