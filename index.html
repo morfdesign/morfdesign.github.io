@@ -2,39 +2,96 @@
 layout: default
 ---
 
+  <a href="mailto:info@morf.studio?subject=Hey%20Morf!" id="email-button" class="mar-l pad-m bg-red circle pos-fix right-0 bottom-0">
+    <div class="pad-s text-center white">Hi</div>
+  </a>
+
   <section id="intro" class="pad-x-m pad-y-xl cf">
-    <div class="col col-12 m-col-8 pad-m">
-      <p class="h2 measure"> {{site.description}}
-      </p>
-    </div>
-    <div class="col col-12 m-col-4 pad-m">
-      <p><a href="mailto:info@morf.studio?subject=Hey%20Morf!">info@morf.studio</a></p>
-      <p><a href="tel:9195379227">(1) 919.537.9227</a></p>
+    <div class="pad-m">
+      <p id="tagline" class="h2 measure"> A creative agency for young and evolving companies.</p>
     </div>
   </section>
 
-  <!-- <section id="work" class="pad-y-xl cf">
-    <div class="pad-y-m">
-      {% for project in site.projects %}
-        {{ project.content }}
-      {% endfor %}
-    </div>
-  </section> -->
-
-  <section id="work" class="pad-y-xl cf">
-    <div class="pad-l">
-      <h2>Select Work</h2>
+  <section id="services" class="pad-x-m pad-y-xl cf">
+    <div class="pad-l text-center uppercase">
+      <h5>Things we're good at</h5>
       <hr>
     </div>
+    <div class="col col-12 pad-m text-center">
+      <div class="col m-col-4 col-12">
+        <h1>🤔</h1>
+        <h3>Creative Strategy</h3>
+        <p>
+          Brief description of what this actually means.
+        </p>
+      </div>
+      <div class="col m-col-4 col-12">
+        <h1>🖌</h1>
+        <h3>Branding &amp; Identity Design</h3>
+        <p>
+          Brief description of what this actually means.
+        </p>
+      </div>
+      <div class="col m-col-4 col-12">
+        <h1>📱</h1>
+        <h3>User Interface Design</h3>
+        <p>
+          Brief description of what this actually means.
+        </p>
+      </div>
+    </div>
+  </section>
 
+
+  <section id="work" class="pad-y-xl cf">
+    <div class="pad-l text-center uppercase">
+      <h5>Select Work</h5>
+      <hr>
+    </div>
     <div class="pad-y-m">
       {% for project in site.projects limit:3%}
-        <div class="max-width-l float-center text-center pad-x-m pad-b-l">
-          <h1>{{ project.title }}</h1>
-          <h5>{{ project.year }}<span>{% for item in project.role %} &bull; {{ item }}{% endfor %}</span></h5>
-          <p class="float-center text-left">{{ project.desc }}</p>
+        <div class="pad-b-xxl">
+          <div class="max-width-l float-center text-center pad-x-l pad-b-l">
+            <h1>{{ project.title }}</h1>
+            <h5 class="pad-b-s">{{ project.year }}<span>{% for item in project.role %} &bull; {{ item }}{% endfor %}</span></h5>
+            <p class="float-center text-left">{{ project.desc }}</p>
+          </div>
+          {{ project.content }}
         </div>
-        {{ project.content }}
       {% endfor %}
     </div>
+  </section>
+
+  <section id="clients" class="pad-y-xl cf">
+    <div class="pad-l">
+      <h2>Brands we've worked with</h2>
+      <hr>
+      <h5 class="pad-y-m"> Verizon, National Geographic, HBO, Tribeca Film Institute, Wired</h5>
+    </div>
+  </section>
+
+  <section id="offices" class="pad-y-xl cf">
+    <div class="pad-l text-center">
+      <h2>Visit one of our offices</h2>
+      <hr>
+    </div>
+    <div class="col col-12 pad-m text-center">
+      <div class="pad-m col s-col-2 col-4">
+        <a href="#">NYC</a>
+      </div>
+      <div class="pad-m col s-col-2 col-4">
+        <a href="#">SEA</a>
+      </div>
+      <div class="pad-m col s-col-2 col-4">
+        <a href="#">PHL</a>
+      </div>
+      <div class="pad-m col s-col-2 col-4">
+        <a href="#">RDU</a>
+      </div>
+      <div class="pad-m col s-col-2 col-4">
+        <a href="#">PDX</a>
+      </div>
+      <div class="pad-m col s-col-2 col-4">
+        <a href="#">LON</a>
+      </div>
   </section>

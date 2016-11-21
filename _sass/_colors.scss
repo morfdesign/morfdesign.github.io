@@ -17,7 +17,9 @@ $color-list: (
 "blue"  #133370,
 "navy" #0D2449,
 "gray"  #F6F6F6,
-"blk"  #1F1A17
+"charcoal" #252525,
+"blk"  #1F1A17,
+"haus" #72bfb2
 );
 
 @each $value in $color-list {

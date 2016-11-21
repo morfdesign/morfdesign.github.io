@@ -52,3 +52,16 @@ a.button{
     box-shadow: 0 1px 1px 1px $b20;
   }
 }
+
+#email-button {
+  font-size: $h2;
+  height: 3rem;
+  width: 3rem;
+  z-index: 2;
+  box-shadow:0 4px 4px 0 $b30;
+  @include breakpoint(l) {
+    height: 4rem;
+    width: 4rem;
+    font-size: $h1;
+  };
+}
