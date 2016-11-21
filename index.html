@@ -13,100 +13,28 @@ layout: default
     </div>
   </section>
 
+  <!-- <section id="work" class="pad-y-xl cf">
+    <div class="pad-y-m">
+      {% for project in site.projects %}
+        {{ project.content }}
+      {% endfor %}
+    </div>
+  </section> -->
 
-  <section id="work" class="pad-x-m pad-y-xl cf">
-        <div class="pad-y-m">
-          <div class="pad-m">
-            <h1> Our Work </h1>
-          </div>
+  <section id="work" class="pad-y-xl cf">
+    <div class="pad-l">
+      <h2>Select Work</h2>
+      <hr>
+    </div>
 
-            <section class="grid cf">
-              <div class="col col-12 m-col-6  pad-m">
-                <a href="https://www.behance.net/gallery/40624231/Bike-Build-Annual-Report" target=_blank>
-                  <img src="img/work/thumbnails_2x3/babar.jpg" alt="">
-                  <p class="h4 pad-t-m" >Bike &amp; Build Annual Report</p>
-                </a>
-              </div>
-              <div class="col col-12 m-col-6  pad-m">
-                <a href="https://www.behance.net/gallery/29901077/The-Woolley-Market" target=_blank>
-                  <img src="img/work/thumbnails_2x3/woolley.jpg" alt="">
-                  <p class="h4 pad-t-m" >The Woolley Market</p>
-                </a>
-              </div>
-              <div class="col col-12 m-col-6  pad-m">
-                <a href="http://thrillderness.co" target=_blank>
-                  <img src="img/work/thumbnails_2x3/thrillderness.jpg" alt="">
-                  <p class="h4 pad-t-m" >Thrillderness</p>
-                </a>
-              </div>
-              <div class="col col-12 m-col-6  pad-m">
-                <a href="http://cinereach.org">
-                  <img src="img/work/thumbnails_2x3/cinereach.jpg" alt="">
-                  <p class="h4 pad-t-m" >Cinereach</p>
-                </a>
-              </div>
-            </section>
-
-            <section class="cf">
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/milestones.jpg" alt=""> </div>
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/churton.gif" alt=""> </div>
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/basecamp-coffee.gif" alt=""> </div>
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/gnarrboro.jpg" alt=""> </div>
-              <!-- <div class="col col-6 m-col-4 l-col-3 pad-x-s"> <img class="mar-s shadow"src="img/work/dribbble_thumbs/couch.jpg" alt=""> </div> -->
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/grid-account.jpg" alt=""> </div>
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/bikebuildriders.jpg" alt=""> </div>
-              <!-- <div class="col col-6 m-col-4 l-col-3 pad-x-s"> <img class="mar-s shadow"src="img/work/dribbble_thumbs/pops.jpg" alt=""> </div> -->
-              <!-- <div class="col col-6 m-col-4 l-col-3 pad-x-s"> <img class="mar-s shadow"src="img/work/dribbble_thumbs/morf-logo15fps.gif" alt=""> </div> -->
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/open-circle.jpg" alt=""> </div>
-              <!-- <div class="col col-6 m-col-4 l-col-3 pad-x-s"> <img class="mar-s shadow"src="img/work/dribbble_thumbs/thrill.jpg" alt=""> </div> -->
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/tfi.jpg" alt=""> </div>
-            </section>
-          <!-- <h3 class="pad-x-m text-right"><a href="mailto:info@morf.studio?subject=Hey%20Morf!">Contact Us</a></h3> -->
+    <div class="pad-y-m">
+      {% for project in site.projects limit:3%}
+        <div class="max-width-l float-center text-center pad-x-m pad-b-l">
+          <h1>{{ project.title }}</h1>
+          <h5>{{ project.year }}<span>{% for item in project.role %} &bull; {{ item }}{% endfor %}</span></h5>
+          <p class="float-center text-left">{{ project.desc }}</p>
         </div>
-  </section>
-
-
-  <section id="work" class="max-width-l float-center pad-x-m pad-y-xl cf">
-        <div class="pad-y-m">
-          <div class="pad-m">
-            <h1> Project 1 </h1>
-            <h6 class="cyan">2016</h6>
-            <h5>UI · UX · Branding</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-          </div>
-
-            <section class="grid cf">
-              <div class="col col-12 pad-m">
-                <img src="img/work/thumbnails_2x3/babar.jpg" alt="">
-                <p class="h4 pad-t-m" >Bike &amp; Build Annual Report</p>
-              </div>
-              <div class="col col-12 m-col-6  pad-m">
-                <a href="https://www.behance.net/gallery/40624231/Bike-Build-Annual-Report" target=_blank>
-                  <img src="img/work/thumbnails_2x3/babar.jpg" alt="">
-                  <p class="h4 pad-t-m" >Bike &amp; Build Annual Report</p>
-                </a>
-              </div>
-              <div class="col col-12 m-col-6  pad-m">
-                <a href="https://www.behance.net/gallery/29901077/The-Woolley-Market" target=_blank>
-                  <img src="img/work/thumbnails_2x3/woolley.jpg" alt="">
-                  <p class="h4 pad-t-m" >The Woolley Market</p>
-                </a>
-              </div>
-              <div class="col col-12 m-col-6  pad-m">
-                <a href="http://thrillderness.co" target=_blank>
-                  <img src="img/work/thumbnails_2x3/thrillderness.jpg" alt="">
-                  <p class="h4 pad-t-m" >Thrillderness</p>
-                </a>
-              </div>
-              <div class="col col-12 m-col-6  pad-m">
-                <a href="http://cinereach.org">
-                  <img src="img/work/thumbnails_2x3/cinereach.jpg" alt="">
-                  <p class="h4 pad-t-m" >Cinereach</p>
-                </a>
-              </div>
-            </section>
-
-        </div>
+        {{ project.content }}
+      {% endfor %}
+    </div>
   </section>

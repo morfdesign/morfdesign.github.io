@@ -9,6 +9,11 @@ twitter_username: morfstudio
 instagram_username: morfstudio
 github_username:  morf-studio
 
+collections: projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 # Build settings
 markdown: kramdown

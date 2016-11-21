@@ -9,6 +9,32 @@ $blk: #1f1a17;
 $charcoal: #252525;
 $gray: #F6F6F6;
 
+$color-list: (
+"red"    #F44336,
+"orange"  #FF951B,
+"yellow"  #FF951B, // not right yet
+"sky"    #67C9bb,
+"blue"  #133370,
+"navy" #0D2449,
+"gray"  #F6F6F6,
+"blk"  #1F1A17
+);
+
+@each $value in $color-list {
+  .#{nth($value, 1)} {
+    color: nth($value, 2);
+  }
+
+  .bg-#{nth($value, 1)} {
+    background-color: nth($value, 2);
+  }
+
+  .border-#{nth($value, 1)} {
+    border-color: nth($value, 2);
+    border-style: solid;
+  }
+}
+
 // Background Colors
 .bg-red{background-color:#F44336;}
 .bg-cyan{
