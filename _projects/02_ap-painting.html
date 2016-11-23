@@ -8,65 +8,19 @@ desc:   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 year:   2016
 permalink: /ap-painting/
 ---
-<section class="grid cf">
 
-  <div class="col col-12 bg-charcoal">
-    <div class="max-width-l float-center">
-      <img src="img/work/ap/Logo-Inverse.png" alt="">
-    </div>
-  </div>
-
-  <div class="col col-12">
-    <div class="max-width-l float-center">
-      <div class="col col-12 m-col-6 ">
-        <img src="img/work/ap/Logo-Color.png" alt="">
-      </div>
-      <div class="col col-12 m-col-6 bg-gray">
-        <img src="img/work/ap/App-Icons.png" alt="">
+<section class="cf">
+  <div class="slider">
+    <div> <img src="img/work/ap/Logo-Inverse.png" alt=""> </div>
+    <div> <img src="img/work/ap/Logo-Color.png" alt=""></div>
+    <div> <img src="img/work/ap/App-Icons.png" alt=""></div>
+    <div> <img src="img/work/ap/BusinessCards-Letterheads.png" alt=""></div>
+    <div> <img src="img/work/ap/Apparel.jpg" alt=""></div>
+    <div>
+      <div class="border bg-black-20 mar-auto">
+        <p class="float-center text-left">{{ page.desc }}</p>
+        <h5 class="pad-b-s">{{ page.year }}<span>{% for item in page.role %} &bull; {{ item }}{% endfor %}</span></h5>
       </div>
     </div>
   </div>
-
-  <div class="col col-12">
-    <div class="max-width-l float-center">
-      <img src="img/work/ap/BusinessCards-Letterheads.png" alt="">
-    </div>
-  </div>
-
-  <div class="col col-12">
-    <div class="max-width-l float-center">
-      <img src="img/work/ap/Apparel.jpg" alt="">
-    </div>
-  </div>
-
-  <div class="col col-12">
-    <div class="max-width-l float-center">
-      <div class="col col-12 m-col-6 ">
-        <img src="img/work/ap/tfi.jpg" alt="">
-      </div>
-      <div class="col col-12 m-col-6 ">
-        <img src="img/work/ap/woolley.jpg" alt="">
-      </div>
-    </div>
-  </div>
-
-  <div class="col col-12 bg-red">
-    <div class="max-width-l float-center">
-      <img src="img/work/ap/cinereach.jpg" alt="">
-    </div>
-  </div>
-
-  <div class="col col-12">
-    <div class="max-width-l float-center">
-      <div class="col col-12 m-col-6 ">
-        <img src="img/work/ap/thrillderness.jpg" alt="">
-      </div>
-      <div class="col col-12 m-col-6 ">
-        <img src="img/work/ap/tfi.jpg" alt="">
-      </div>
-    </div>
-  </div>
-
 </section>
-
-</div>
