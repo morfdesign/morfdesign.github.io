@@ -1,7 +1,10 @@
 //Positioning Utilities
-.pos-abs{ position: absolute;}
-.pos-fix{ position: fixed;}
-.pos-rel{ position: relative;}
+.absolute{ position: absolute;}
+.fixed{ position: fixed;}
+.relative{ position: relative;}
+
+
+
 
 //Display Utilities
 .dis-i { display: inline;}
@@ -10,7 +13,6 @@
 .dis-t { display: table;}
 .dis-f { display: flex;}
 .dis-tc{ display: table-cell;}
-
 
 .s-dis-i {
   @include breakpoint(s) {

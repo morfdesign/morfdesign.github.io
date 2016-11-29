@@ -13,6 +13,9 @@ $measure-width-narrow:22em;
 .lead-t{line-height:$leading-text;}
 .lead-h{line-height:$leading-headline;}
 
+
+.avenir { font-family: 'avenir next', avenir, sans-serif; }
+.bodoni { font-family: "Bodoni MT", serif; }
 /**
  * Basic styling
  */
@@ -59,7 +62,6 @@ small{
   opacity:0.6;
 }
 
-
 mark{
   //padding:$space-xs 0;
   &:hover{
@@ -69,9 +71,15 @@ mark{
 
 //Text Decoration Classes
 .underline{}
-.bold{}
+.bold{
+  font-weight:bold;
+}
 .uppercase{
   text-transform: uppercase;
+}
+.caps{
+  text-transform: uppercase;
+  letter-spacing: .15em;
 }
 
 // Text Alignment Classes
@@ -79,9 +87,6 @@ mark{
 .text-left  { text-align:left;}
 .text-right {text-align:right;}
 
-//Font Weight Classes
-.bold {}
-.light{}
 
 //Measure & Max-Width Classes
 .measure{ max-width: $measure-width;}

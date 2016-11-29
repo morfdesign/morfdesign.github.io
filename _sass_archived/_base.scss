@@ -1,10 +1,15 @@
+
 /*
+
   BOX SIZING
 
   A saner box-model.
   Only applied to unqualified elements where this model makes sense.
+
   Apply .border-box where needed.
+
 */
+
 nav,
 main,
 section,
@@ -71,6 +76,9 @@ input[type="password"]:after,
   box-sizing: border-box;
 }
 
+
+
+
 /**
  * Reset some basic elements
  */
@@ -81,11 +89,19 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-@import
-  "colors/colors",
-  "layout/layout",
-  "typography/typography",
-  "elements/elements",
-  "animation/animation",
-  "vendor/slick-theme"
-;
+
+
+
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

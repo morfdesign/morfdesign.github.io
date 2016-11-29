@@ -2,65 +2,63 @@
 layout: default
 ---
 
+  <!-- <a href="mailto:info@morf.studio?subject=Hey%20Morf!" id="email-button" class="mar-l pad-m bg-red circle pos-fix right-0 bottom-0">
+    <div class="pad-s text-center white">Hi</div>
+  </a> -->
+
   <section id="intro" class="pad-x-m pad-y-xl cf">
-    <div class="col col-12 m-col-8 pad-m">
-      <p class="h2 measure"> {{site.description}}
-      </p>
-    </div>
-    <div class="col col-12 m-col-4 pad-m">
-      <p><a href="mailto:info@morf.studio?subject=Hey%20Morf!">info@morf.studio</a></p>
-      <p><a href="tel:9195379227">(1) 919.537.9227</a></p>
+    <div class="pad-m text-center">
+      <h2 class="h4 measure float-center"> A creative agency for young and evolving companies.</h2>
     </div>
   </section>
 
 
-  <section id="work" class="pad-x-m pad-y-xl cf">
-        <div class="pad-y-m">
-          <div class="pad-m">
-            <h1> Our Work </h1>
+
+  <section id="work" class="pad-y-xl cf border-top-thin">
+    <h2 class="h4 caps text-center">Featured Projects</h2>
+    <div class="pad-y-m">
+      {% for project in site.projects limit:3%}
+        <div class="pad-y-l">
+          <h2 class="h4 uppercase bold text-center">{{ project.title }}</h2>
+          {{ project.content }}
+          <div class="text-center pad-t-m">
+            <p class="h4 black-5 pad-b-s">{{ project.year }}<span>{% for item in project.role %} &bull; {{ item }}{% endfor %}</span></p>
           </div>
-
-            <section class="grid cf">
-              <div class="col col-12 m-col-6  pad-m">
-                <a href="https://www.behance.net/gallery/40624231/Bike-Build-Annual-Report" target=_blank>
-                  <img src="img/work/thumbnails_2x3/babar.jpg" alt="">
-                  <p class="h4 pad-t-m" >Bike &amp; Build Annual Report</p>
-                </a>
-              </div>
-              <div class="col col-12 m-col-6  pad-m">
-                <a href="https://www.behance.net/gallery/29901077/The-Woolley-Market" target=_blank>
-                  <img src="img/work/thumbnails_2x3/woolley.jpg" alt="">
-                  <p class="h4 pad-t-m" >The Woolley Market</p>
-                </a>
-              </div>
-              <div class="col col-12 m-col-6  pad-m">
-                <a href="http://thrillderness.co" target=_blank>
-                  <img src="img/work/thumbnails_2x3/thrillderness.jpg" alt="">
-                  <p class="h4 pad-t-m" >Thrillderness</p>
-                </a>
-              </div>
-              <div class="col col-12 m-col-6  pad-m">
-                <a href="http://cinereach.org">
-                  <img src="img/work/thumbnails_2x3/cinereach.jpg" alt="">
-                  <p class="h4 pad-t-m" >Cinereach</p>
-                </a>
-              </div>
-            </section>
-
-            <section class="cf">
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/milestones.jpg" alt=""> </div>
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/churton.gif" alt=""> </div>
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/basecamp-coffee.gif" alt=""> </div>
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/gnarrboro.jpg" alt=""> </div>
-              <!-- <div class="col col-6 m-col-4 l-col-3 pad-x-s"> <img class="mar-s shadow"src="img/work/dribbble_thumbs/couch.jpg" alt=""> </div> -->
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/grid-account.jpg" alt=""> </div>
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/bikebuildriders.jpg" alt=""> </div>
-              <!-- <div class="col col-6 m-col-4 l-col-3 pad-x-s"> <img class="mar-s shadow"src="img/work/dribbble_thumbs/pops.jpg" alt=""> </div> -->
-              <!-- <div class="col col-6 m-col-4 l-col-3 pad-x-s"> <img class="mar-s shadow"src="img/work/dribbble_thumbs/morf-logo15fps.gif" alt=""> </div> -->
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/open-circle.jpg" alt=""> </div>
-              <!-- <div class="col col-6 m-col-4 l-col-3 pad-x-s"> <img class="mar-s shadow"src="img/work/dribbble_thumbs/thrill.jpg" alt=""> </div> -->
-              <div class="col col-6 m-col-3 l-col-3 pad-m"> <img class="shadow"src="img/work/dribbble_thumbs/tfi.jpg" alt=""> </div>
-            </section>
-          <!-- <h3 class="pad-x-m text-right"><a href="mailto:info@morf.studio?subject=Hey%20Morf!">Contact Us</a></h3> -->
         </div>
+      {% endfor %}
+    </div>
   </section>
+
+  <section id="offices" class="pad-y-xl cf border-top-thin">
+    <div class="pad-l text-center">
+      <h2 class="h4 caps">Visit Our Offices</h2>
+    </div>
+    <div class="col col-12 pad-y-m text-center">
+      <div class="pad-m col s-col-2 col-4">
+        <a href="https://goo.gl/maps/rAy4G5umGcS2" target="_blank">NYC</a>
+      </div>
+      <div class="pad-m col s-col-2 col-4">
+        <a href="https://goo.gl/maps/2stHKxigoow" target="_blank">SEA</a>
+      </div>
+      <div class="pad-m col s-col-2 col-4">
+        <a href="https://goo.gl/maps/ABgXeLedNo22" target="_blank">PHL</a>
+      </div>
+      <div class="pad-m col s-col-2 col-4">
+        <a href="https://goo.gl/maps/9QoioYuECdt" target="_blank">RDU</a>
+      </div>
+      <div class="pad-m col s-col-2 col-4">
+        <a href="https://goo.gl/maps/Jsz3QDzLpv12" target="_blank">PDX</a>
+      </div>
+      <div class="pad-m col s-col-2 col-4">
+        <a href="https://goo.gl/maps/TiZsAY242qt" target="_blank">LON</a>
+      </div>
+  </section>
+
+<script>
+$(document).ready(function(){
+  $('.slider').slick({
+    //dots:true,
+    speed:200
+  });
+});
+</script>

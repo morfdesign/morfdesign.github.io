@@ -2,150 +2,48 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "variables",
-        "colors",
-        "base",
-        "layout",
-        "typography",
-        "headings",
-        "media",
-        "btns",
-        "links",
-        "layout",
-        "navigation",
-
-        "borders",
-        "animation",
-        "lists",
-        "syntax-highlighting",
-        "slick-theme"
+        "base"
 ;
 
-
-
-#brand {
-  //z-index: 2;
+// INTRO FOUT
+.wf-loading #Intro {
+visibility: hidden;
+}
+.wf-active #Intro {
+visibility: visible;
 }
 
-#info {
-  &:before{
-    display:block;
-    content:' ';
-    width: 0;
-    height: 0;
-    border-bottom: 4rem solid $cyan;
-    border-right: 100vw solid transparent;
-    position: absolute;
-    top: -4rem;
-    right: 0;
-    @include breakpoint(m) {
-      top: -8rem;
-      border-bottom: 8rem solid $cyan;
-    };
-  }
-  h2 {
-    //max-width:30rem;
-    //margin-left: auto;
-    //margin-right: auto;
-  }
+.visible-grid{
+  //background-image: linear-gradient(to right, rgba(0,0,0,.1) 0, rgba(255,255,255,0)1.5px);
+  //background-repeat: repeat-x;
+  //background-size: 16.6666667% 100%;
+  //margin:0 2rem;
+  //@media screen and (min-width:$tablet){
+    //background-size: 100% 30px;
+  //20px x 1.5 = 30px
+  //}
+  // background-image:repeating-linear-gradient(
+  //
+  // );
+}
+body{
+  //background-image: linear-gradient(to bottom,rgba(0,0,0,.1) 0,rgba(255,255,255,0)1px);
+  //background-repeat: repeat-y;;
+  //background-size:100% 1.5em;
+  background-color:$white;
+  color: $black70;
 }
 
-
-#contact {
-  background-color:$marigold;
-  &:before{
-    display:block;
-    content:' ';
-    width: 0;
-    height: 0;
-    border-top: 4rem solid $gray;
-    border-left: 100vw solid transparent;
-    position: absolute;
-    top: 0;
-    right: 0;
-    @include breakpoint(m) {
-      border-top: 8rem solid $gray;
-    };
-  }
-  //color:$white;
-  /*z-index: 2;*/
-  //font-family: "Helvetica Neue", Helvetica, sans-serif !important;
-}
-#map-marker {
-  width: 60px;
-  fill: white;
-}
-
-#chevron {
-  width: 40px;
-  fill: white;
-  padding: 20px;
-}
-#skillsList{
-  @include breakpoint(m) {
-    -webkit-column-count:2;
-       -moz-column-count:2;
-        -ms-column-count:2;
-         -o-column-count:2;
-  }
-}
-
-// #work-huge {
-//   color:$off-white;
-//   // background-image: url(../img/grid.jpg);
-//   // font-size: 20rem;
-//   transition: all 0.2s ease;
-//   text-transform: uppercase;
-//   font-family: "helvetica neue";
-//   // transform: rotate(-45deg);
-//   &:hover {
-//     opacity: .8;
-//   }
-// }
-
-
-
-.info-box {
-  padding-top: $space-m;
-
-  h2 {
-    padding-top: .2rem;
-  }
-  p {
-    // margin: 0 auto 30px 0;
-  }
-}
-
-.work-carousel {
-  // padding: 2rem;
-}
-
-.project-frame {
-  padding: 2rem;
-  border-bottom: 1px solid white;
+.logo{
+  width:6rem;
+  height:3rem;
+  //overflow:hidden;
 }
 
 
-.chevron-btn {
-  z-index: 1;
-  bottom: 2em;
-  right: 2em;
-}
-
-#email {
-  padding: 2rem;
-}
-
-#morf-logo {
-  width: 60px;
-  position: fixed;
-  z-index: 1;
-  padding: 1rem;
-}
-
-input {
-  // width: 70%;
+span.kern{
+  letter-spacing:.02em;
 }

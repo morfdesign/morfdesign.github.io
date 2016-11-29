@@ -1,20 +1,15 @@
 
-<header class="site-header cf pad-m">
+<header class="site-header cf">
 
-  <div class="wrapper cf">
+  <div class="wrapper cf fixed top-0 left-0 right-0 bg-white z4">
 
-
-    <div class="col col-12 m-col-8 pad-m">
-      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      <!-- <img src="img/studio/morf-logo15fps.gif" alt="Morf"> -->
+    <div class=" text-center max-width-l pad-x-l pad-y-s float-center">
+      <a class="inline-block pad-t-m link float-l" href="{{ site.baseurl }}/profile">Profile</a>
+      <a class="site-title inline-block float-center bg-cover link logo" title="Home" href="{{ site.baseurl }}/">
+        <img src="img/studio/morf-logo15fps_white_compressed.gif" alt="Morf">
+      </a>
+      <a class="inline-block pad-t-m link float-r" href="{{ site.baseurl }}/contact">Contact</a>
     </div>
-
-    <nav class="col col-12 m-col-4 pad-m">
-
-        <a  class=" {% if p.url == profile %} active {% endif %} mar-r-m"  href="{{ site.baseurl }}/profile">Profile</a>
-        <a  class=" {% if p.url == contact %} active {% endif %} mar-r-m"  href="{{ site.baseurl }}/contact">Contact</a>
-
-    </nav>
 
   </div>
 
