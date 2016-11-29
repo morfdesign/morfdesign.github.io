@@ -8,74 +8,34 @@ layout: default
 
   <section id="intro" class="pad-x-m pad-y-xl cf">
     <div class="pad-m text-center">
-      <h2 class="h1 measure float-center"> A creative agency for young and evolving companies.</h2>
-    </div>
-  </section>
-
-  <section id="services" class="pad-x-m pad-b-xl cf">
-    <div class="pad-x-l max-width-m float-center pad-t-xl border-top text-center uppercase">
-      <h2>Services we offer</h2>
-    </div>
-    <div class="pad-m float-center max-width-l cf text-center">
-      <div class="col m-col-4 col-12">
-        <span class="icon">+</span>
-        <h3>Creative Strategy</h3>
-        <p>
-          Brief description of what this actually means.
-        </p>
-      </div>
-      <div class="col m-col-4 col-12">
-        <span class="icon">+</span>
-        <h3>Branding &amp; Identity Design</h3>
-        <p>
-          Brief description of what this actually means.
-        </p>
-      </div>
-      <div class="col m-col-4 col-12">
-        <span class="icon">+</span>
-        <h3>User Interface Design</h3>
-        <p>
-          Brief description of what this actually means.
-        </p>
-      </div>
+      <h2 class="h4 measure float-center"> A creative agency for young and evolving companies.</h2>
     </div>
   </section>
 
 
-  <section id="work" class="pad-y-xl max-width-l float-center cf border-top">
-    <div class="pad-x-l text-center uppercase">
-      <h2>Featured Projects</h2>
-    </div>
+
+  <section id="work" class="pad-y-xl  cf border-top-thin">
+
+    <h2 class="h4 caps text-center">Featured Projects</h2>
+
     <div class="pad-y-m">
       {% for project in site.projects limit:3%}
-        <div class="pad-b-xxl">
-          <div class="max-width-l float-center text-center pad-x-l">
-            <h2 class="h4 uppercase bold">{{ project.title }}</h2>
-          </div>
+        <div class="pad-y-l">
+          <h2 class="h4 uppercase bold text-center">{{ project.title }}</h2>
           {{ project.content }}
+          <div class="text-center pad-t-m">
+            <p class="h4 black-5 pad-b-s">{{ project.year }}<span>{% for item in project.role %} &bull; {{ item }}{% endfor %}</span></p>
+          </div>
         </div>
       {% endfor %}
     </div>
   </section>
 
-  <!-- <section id="clients" class="pad-y-xl  float-center cf border-top">
-    <div class="pad-l">
-      <h2>Brands we've worked with</h2>
-      <ul class="list-reset">
-        <li> Verizon  </li>
-        <li> National Geographic  </li>
-        <li> HBO  </li>
-        <li> Tribeca Film Institute  </li>
-        <li> Wired </li>
-      </ul>
-    </div>
-  </section> -->
-
-  <section id="offices" class="pad-y-xl max-width-l float-center cf border-top">
+  <section id="offices" class="pad-y-xl cf border-top">
     <div class="pad-l text-center">
-      <h2 class="h6 caps">Visit our Offices</h2>
+      <h2 class="h4 caps">Visit Our Offices</h2>
     </div>
-    <div class="col col-12 pad-m text-center">
+    <div class="col col-12 pad-y-m text-center">
       <div class="pad-m col s-col-2 col-4">
         <a href="#">NYC</a>
       </div>

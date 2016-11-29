@@ -110,8 +110,8 @@ $slick-loader-path: "./" !default;
 $slick-arrow-color: black !default;
 $slick-dot-color: black !default;
 $slick-dot-color-active: $slick-dot-color !default;
-$slick-prev-character: "PREV" !default;
-$slick-next-character: "NEXT" !default;
+$slick-prev-character: "«" !default;
+$slick-next-character: "»" !default;
 $slick-dot-character: "•" !default;
 $slick-dot-size: 1.5rem !default;
 $slick-opacity-default: 0.75 !default;
@@ -191,7 +191,7 @@ $slick-opacity-not-active: 0.25 !default;
     &:before {
         //font-family: $slick-font-family;
         display:block;
-        font-size: 1rem;
+        font-size: 2rem;
         font-weight:normal;
         letter-spacing:.25em;
         line-height: 1;
@@ -203,10 +203,10 @@ $slick-opacity-not-active: 0.25 !default;
 }
 
 .slick-prev {
-    left: -3rem;
+    left: -1.5rem;
     [dir="rtl"] & {
         left: auto;
-        right: -3rem;
+        right: -1.5rem;
     }
     &:before {
         content: $slick-prev-character;
@@ -217,9 +217,9 @@ $slick-opacity-not-active: 0.25 !default;
 }
 
 .slick-next {
-    right: -3rem;
+    right: -1.65rem;
     [dir="rtl"] & {
-        left: -3rem;
+        left: -1.65rem;
         right: auto;
     }
     &:before {
@@ -231,12 +231,12 @@ $slick-opacity-not-active: 0.25 !default;
 }
 
 .slick-prev:before{
-  transform:rotateZ(-90deg);
-  transform-origin:center right;
+  //transform:rotateZ(-90deg);
+  //transform-origin:center right;
 }
 .slick-next:before{
-  transform:rotateZ(90deg);
-  transform-origin:center top;
+  //transform:rotateZ(90deg);
+  //transform-origin:center top;
 }
 
 /* Dots */
