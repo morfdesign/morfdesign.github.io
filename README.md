@@ -1,5 +1,9 @@
-# morf-studio.github.io
-#Morf Studio
-## This is where the magic happens.
-We first build the website in 2 days. Not a big deal. It was simple.
-But the goal is to keep this up. To be productive, to get work.
+# Morf Studio
+
+## Authors
+@alexbloom
+@spenhar
+
+## Colophon
+- Built With Jekyll
+- Single Purpose Class Library heavily inspired by BassCss & Tachyons with a few Sass mixins where they helped us.
